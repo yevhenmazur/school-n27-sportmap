@@ -273,7 +273,7 @@
         </color>
     </colors>
     <barrier version="6" required="0.6.0">
-        <symbols count="169">
+        <symbols count="170">
             <symbol type="2" id="0" code="101" name="Contour">
                 <description>A line joining points of equal height. The standard vertical interval between contours is 2 or 2.5 m. To emphasize the 3-dimensional effect of the contour line image, contour lines shall be represented as continuous lines through all symbols, also building (526.1) and canopy (526.2). However, contour lines shall be cut out for better legibility, if they touch the following symbols: small earth wall (108.1), small knoll (112), small elongated knoll (113), small depression (115), pit or hole (116), prominent landform feature (118), step or edge of paved area (529.1). 
 
@@ -2703,7 +2703,32 @@ Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                     </dash_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="1" id="164" code="712" name="First aid post">
+            <symbol type="2" id="164" code="709.3" name="Helper technical line">
+                <description>A dashed line indicates intermittent marking on the ground.</description>
+                <line_symbol color="0" line_width="70" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="3000" break_length="500" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
+                    <start_symbol>
+                        <symbol type="1" code="" name="Початковий знак">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </start_symbol>
+                    <mid_symbol>
+                        <symbol type="1" code="" name="Серединний знак">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </mid_symbol>
+                    <end_symbol>
+                        <symbol type="1" code="" name="Кінцевий знак">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </end_symbol>
+                    <dash_symbol>
+                        <symbol type="1" code="" name="Знак кінця відрізку">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </dash_symbol>
+                </line_symbol>
+            </symbol>
+            <symbol type="1" id="165" code="712" name="First aid post">
                 <description>The location of a first aid post.</description>
                 <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
                     <element>
@@ -2736,7 +2761,7 @@ Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="1" id="165" code="713" name="Refreshment point">
+            <symbol type="1" id="166" code="713" name="Refreshment point">
                 <description>The location of a refreshment point which is not at a control or along the marked route.</description>
                 <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="4">
                     <element>
@@ -2810,14 +2835,14 @@ Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="4" id="166" code="714" name="Temporary construction or closed area &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to cross)&lt;/span&gt;">
+            <symbol type="4" id="167" code="714" name="Temporary construction or closed area &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to cross)&lt;/span&gt;">
                 <description>Obvious temporary constructions like platforms for spectators and speaker, closed area for spectators, outside restaurant areas, etc. shall be represented in plan shape.
 
 &lt;span style=&quot;color:magenta&quot;&gt;It is forbidden to enter a temporary construction or closed area!
 Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                 <area_symbol inner_color="1" min_area="500" patterns="0"/>
             </symbol>
-            <symbol type="2" id="167" code="799" name="Simple Orienteering Course">
+            <symbol type="2" id="168" code="799" name="Simple Orienteering Course">
                 <description>This symbol provides a simple and quick way to make training courses.
 
 The purple line will extend a bit into the finish symbol. This is a shortcoming of this simple approach.</description>
@@ -2901,7 +2926,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     </dash_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="1" id="168" code="999" name="OpenOrienteering Logo">
+            <symbol type="1" id="169" code="999" name="OpenOrienteering Logo">
                 <description>The OpenOrienteering Logo.</description>
                 <point_symbol inner_radius="250" inner_color="-1" outer_width="0" outer_color="-1" elements="30">
                     <element>
@@ -6841,7 +6866,775 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
         </symbols>
         <parts count="1" current="0">
             <part name="Частина за замовченням">
-                <objects count="0"/>
+                <objects count="55">
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-23046" y="-22117" flags="32"/>
+                            <coord x="-19642" y="-20801" flags="32"/>
+                            <coord x="-24437" y="-8396" flags="32"/>
+                            <coord x="-27841" y="-9712" flags="32"/>
+                            <coord x="-23046" y="-22117" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-17843" y="-15954" flags="32"/>
+                            <coord x="-8479" y="-12152" flags="32"/>
+                            <coord x="-7175" y="-15364" flags="32"/>
+                            <coord x="-16539" y="-19166" flags="32"/>
+                            <coord x="-17843" y="-15954" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-31690" y="7778" flags="32"/>
+                            <coord x="-30610" y="5016" flags="32"/>
+                            <coord x="-33332" y="3951" flags="32"/>
+                            <coord x="-34412" y="6713" flags="32"/>
+                            <coord x="-31690" y="7778" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="112">
+                        <coords count="5">
+                            <coord x="-33309" y="3956"/>
+                            <coord x="-29270" y="-6275" flags="32"/>
+                            <coord x="-25808" y="-4908"/>
+                            <coord x="-30690" y="7458" flags="32"/>
+                            <coord x="-31440" y="7162" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="112">
+                        <coords count="5">
+                            <coord x="-34063" y="6832"/>
+                            <coord x="-34434" y="7875" flags="32"/>
+                            <coord x="-35212" y="7598"/>
+                            <coord x="-34692" y="6138" flags="32"/>
+                            <coord x="-34268" y="6289" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="111">
+                        <coords count="6">
+                            <coord x="-33309" y="3956"/>
+                            <coord x="-29270" y="-6275" flags="32"/>
+                            <coord x="-25808" y="-4908"/>
+                            <coord x="-30690" y="7458" flags="32"/>
+                            <coord x="-31440" y="7162"/>
+                            <coord x="-33309" y="3956" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="111">
+                        <coords count="6">
+                            <coord x="-34063" y="6832"/>
+                            <coord x="-34434" y="7875" flags="32"/>
+                            <coord x="-35212" y="7598"/>
+                            <coord x="-34692" y="6138" flags="32"/>
+                            <coord x="-34268" y="6289"/>
+                            <coord x="-34063" y="6832" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-20729" y="-17992" flags="32"/>
+                            <coord x="-21281" y="-16521" flags="32"/>
+                            <coord x="-20810" y="-16344" flags="32"/>
+                            <coord x="-20258" y="-17815" flags="32"/>
+                            <coord x="-20729" y="-17992" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-16511" y="-5456" flags="32"/>
+                            <coord x="-14955" y="-4734" flags="32"/>
+                            <coord x="-14573" y="-5558" flags="32"/>
+                            <coord x="-16129" y="-6280" flags="32"/>
+                            <coord x="-16511" y="-5456" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-30865" y="-2235" flags="32"/>
+                            <coord x="-30462" y="-3256" flags="32"/>
+                            <coord x="-30902" y="-3430" flags="32"/>
+                            <coord x="-31305" y="-2409" flags="32"/>
+                            <coord x="-30865" y="-2235" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="116">
+                        <coords count="8">
+                            <coord x="-32610" y="-6079"/>
+                            <coord x="-33670" y="-3442"/>
+                            <coord x="-32530" y="-2984"/>
+                            <coord x="-32199" y="-3808"/>
+                            <coord x="-31897" y="-3687"/>
+                            <coord x="-31426" y="-4862"/>
+                            <coord x="-31999" y="-5863"/>
+                            <coord x="-32610" y="-6079" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="4">
+                            <coord x="-23840" y="-4780" flags="32"/>
+                            <coord x="-29910" y="-7100" flags="32"/>
+                            <coord x="-36857" y="-9816" flags="32"/>
+                            <coord x="-38696" y="-10665" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-25225" y="5736" flags="32"/>
+                            <coord x="-16325" y="9273" flags="32"/>
+                            <coord x="-17503" y="12237" flags="32"/>
+                            <coord x="-26403" y="8700" flags="32"/>
+                            <coord x="-25225" y="5736" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-12967" y="10835" flags="32"/>
+                            <coord x="-629" y="15759" flags="32"/>
+                            <coord x="-1675" y="18381" flags="32"/>
+                            <coord x="-14013" y="13457" flags="32"/>
+                            <coord x="-12967" y="10835" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="17">
+                            <coord x="-24234" y="19758"/>
+                            <coord x="-22935" y="18270" flags="32"/>
+                            <coord x="-18389" y="22240"/>
+                            <coord x="-16978" y="20624" flags="32"/>
+                            <coord x="-12392" y="24629"/>
+                            <coord x="-11064" y="23108" flags="32"/>
+                            <coord x="-6381" y="27197"/>
+                            <coord x="-8224" y="29308"/>
+                            <coord x="-12810" y="25303"/>
+                            <coord x="-14138" y="26824" flags="32"/>
+                            <coord x="-18684" y="22854"/>
+                            <coord x="-20095" y="24470" flags="32"/>
+                            <coord x="-24653" y="20491"/>
+                            <coord x="-25952" y="21979" flags="32"/>
+                            <coord x="-30635" y="17890"/>
+                            <coord x="-28792" y="15779"/>
+                            <coord x="-24234" y="19758" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-9197" y="32840" flags="32"/>
+                            <coord x="-14630" y="44640" flags="32"/>
+                            <coord x="-17260" y="43429" flags="32"/>
+                            <coord x="-11827" y="31629" flags="32"/>
+                            <coord x="-9197" y="32840" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-9304" y="40483" flags="32"/>
+                            <coord x="-7023" y="41484" flags="32"/>
+                            <coord x="-7590" y="42777" flags="32"/>
+                            <coord x="-9871" y="41776" flags="32"/>
+                            <coord x="-9304" y="40483" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-12405" y="46646" flags="32"/>
+                            <coord x="-9463" y="47907" flags="32"/>
+                            <coord x="-10679" y="50745" flags="32"/>
+                            <coord x="-13621" y="49484" flags="32"/>
+                            <coord x="-12405" y="46646" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-37617" y="14557" flags="32"/>
+                            <coord x="-36457" y="11812" flags="32"/>
+                            <coord x="-33665" y="12992" flags="32"/>
+                            <coord x="-34825" y="15737" flags="32"/>
+                            <coord x="-37617" y="14557" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-37610" y="14528"/>
+                            <coord x="-41790" y="24408" flags="32"/>
+                            <coord x="-38289" y="25889"/>
+                            <coord x="-33066" y="13543" flags="32"/>
+                            <coord x="-33755" y="13251" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-35734" y="26559" flags="32"/>
+                            <coord x="-29112" y="29417" flags="32"/>
+                            <coord x="-28312" y="27563" flags="32"/>
+                            <coord x="-34934" y="24705" flags="32"/>
+                            <coord x="-35734" y="26559" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-28419" y="26983" flags="32"/>
+                            <coord x="-27895" y="25695" flags="32"/>
+                            <coord x="-28837" y="25312" flags="32"/>
+                            <coord x="-29361" y="26600" flags="32"/>
+                            <coord x="-28419" y="26983" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-30300" y="26063" flags="32"/>
+                            <coord x="-29720" y="24747" flags="32"/>
+                            <coord x="-28901" y="25108" flags="32"/>
+                            <coord x="-29481" y="26424" flags="32"/>
+                            <coord x="-30300" y="26063" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-30470" y="24393" flags="32"/>
+                            <coord x="-29890" y="23247" flags="32"/>
+                            <coord x="-29155" y="23619" flags="32"/>
+                            <coord x="-29735" y="24765" flags="32"/>
+                            <coord x="-30470" y="24393" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="17">
+                            <coord x="-28645" y="41008" flags="32"/>
+                            <coord x="-28168" y="39913" flags="32"/>
+                            <coord x="-29999" y="39116" flags="32"/>
+                            <coord x="-29686" y="38398" flags="32"/>
+                            <coord x="-29391" y="38527" flags="32"/>
+                            <coord x="-28584" y="36673" flags="32"/>
+                            <coord x="-31326" y="35479" flags="32"/>
+                            <coord x="-31891" y="36775" flags="32"/>
+                            <coord x="-32066" y="36699" flags="32"/>
+                            <coord x="-33127" y="39134" flags="32"/>
+                            <coord x="-32947" y="39213" flags="32"/>
+                            <coord x="-33571" y="40645" flags="32"/>
+                            <coord x="-29354" y="42482" flags="32"/>
+                            <coord x="-29954" y="43859" flags="32"/>
+                            <coord x="-24111" y="46404" flags="32"/>
+                            <coord x="-22859" y="43529" flags="32"/>
+                            <coord x="-28645" y="41008" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="112">
+                        <coords count="5">
+                            <coord x="-31391" y="35641" flags="32"/>
+                            <coord x="-33183" y="34895"/>
+                            <coord x="-35984" y="41619"/>
+                            <coord x="-30069" y="44074" flags="32"/>
+                            <coord x="-29959" y="43821" flags="48"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="111">
+                        <coords count="18">
+                            <coord x="-31584" y="35906"/>
+                            <coord x="-31458" y="35613"/>
+                            <coord x="-31457" y="35613"/>
+                            <coord x="-33183" y="34895"/>
+                            <coord x="-35984" y="41619"/>
+                            <coord x="-30069" y="44074" flags="32"/>
+                            <coord x="-29959" y="43821"/>
+                            <coord x="-29904" y="43743"/>
+                            <coord x="-29903" y="43742"/>
+                            <coord x="-29354" y="42482" flags="32"/>
+                            <coord x="-33571" y="40645" flags="32"/>
+                            <coord x="-32947" y="39213" flags="32"/>
+                            <coord x="-33127" y="39134" flags="32"/>
+                            <coord x="-32066" y="36699" flags="32"/>
+                            <coord x="-31891" y="36775" flags="32"/>
+                            <coord x="-31579" y="36059"/>
+                            <coord x="-31564" y="36046"/>
+                            <coord x="-31584" y="35906" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="17">
+                            <coord x="-17918" y="58437" flags="32"/>
+                            <coord x="-16631" y="55548" flags="32"/>
+                            <coord x="-19120" y="54439" flags="32"/>
+                            <coord x="-18933" y="54018" flags="32"/>
+                            <coord x="-20170" y="53467" flags="32"/>
+                            <coord x="-20355" y="53883" flags="32"/>
+                            <coord x="-22510" y="52923" flags="32"/>
+                            <coord x="-22034" y="51854" flags="32"/>
+                            <coord x="-23905" y="51021" flags="32"/>
+                            <coord x="-23576" y="50282" flags="32"/>
+                            <coord x="-23238" y="50433" flags="32"/>
+                            <coord x="-22464" y="48694" flags="32"/>
+                            <coord x="-25511" y="47337" flags="32"/>
+                            <coord x="-27776" y="52422" flags="32"/>
+                            <coord x="-23457" y="54346" flags="32"/>
+                            <coord x="-24061" y="55701" flags="32"/>
+                            <coord x="-17918" y="58437" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="7">
+                            <coord x="-12648" y="45480" flags="32"/>
+                            <coord x="-15769" y="52704" flags="32"/>
+                            <coord x="-16710" y="59627" flags="32"/>
+                            <coord x="-23393" y="67271" flags="32"/>
+                            <coord x="-29116" y="74374" flags="32"/>
+                            <coord x="-35339" y="82178" flags="32"/>
+                            <coord x="-50886" y="84119" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="5">
+                            <coord x="-12661" y="45453"/>
+                            <coord x="-20145" y="47594" flags="32"/>
+                            <coord x="-19264" y="40791" flags="32"/>
+                            <coord x="-25047" y="35748" flags="32"/>
+                            <coord x="-30852" y="33775" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="3">
+                            <coord x="-16215" y="29340" flags="32"/>
+                            <coord x="-22879" y="26118" flags="32"/>
+                            <coord x="-30822" y="24777" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="99">
+                        <coords count="2">
+                            <coord x="-8290" y="38244" flags="32"/>
+                            <coord x="-8335" y="40048" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="13">
+                            <coord x="-2681" y="-7044" flags="32"/>
+                            <coord x="5137" y="-3908" flags="32"/>
+                            <coord x="1012" y="6375" flags="32"/>
+                            <coord x="-2016" y="5160" flags="32"/>
+                            <coord x="151" y="-241" flags="32"/>
+                            <coord x="799" y="19" flags="32"/>
+                            <coord x="1525" y="-1791" flags="32"/>
+                            <coord x="-1432" y="-2977" flags="32"/>
+                            <coord x="-2157" y="-1170" flags="32"/>
+                            <coord x="-1531" y="-919" flags="32"/>
+                            <coord x="-3706" y="4504" flags="32"/>
+                            <coord x="-6813" y="3258" flags="32"/>
+                            <coord x="-2681" y="-7044" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="23877" y="3692" flags="32"/>
+                            <coord x="19067" y="15719" flags="32"/>
+                            <coord x="15930" y="14464" flags="32"/>
+                            <coord x="20740" y="2437" flags="32"/>
+                            <coord x="23877" y="3692" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="28434" y="9323" flags="32"/>
+                            <coord x="31801" y="1796" flags="32"/>
+                            <coord x="33848" y="2712" flags="32"/>
+                            <coord x="30481" y="10239" flags="32"/>
+                            <coord x="28434" y="9323" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="28457" y="9332" flags="32"/>
+                            <coord x="29256" y="9691" flags="32"/>
+                            <coord x="28949" y="10375" flags="32"/>
+                            <coord x="28150" y="10016" flags="32"/>
+                            <coord x="28457" y="9332" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="32059" y="1918" flags="32"/>
+                            <coord x="33416" y="2519" flags="32"/>
+                            <coord x="33645" y="2002" flags="32"/>
+                            <coord x="32288" y="1401" flags="32"/>
+                            <coord x="32059" y="1918" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="108">
+                        <coords count="6">
+                            <coord x="28129" y="9939"/>
+                            <coord x="27337" y="9525" flags="32"/>
+                            <coord x="26909" y="8545" flags="32"/>
+                            <coord x="29978" y="1341" flags="32"/>
+                            <coord x="30702" y="1048"/>
+                            <coord x="32147" y="1732" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="112">
+                        <coords count="5">
+                            <coord x="15381" y="36847" flags="32"/>
+                            <coord x="20446" y="25924" flags="32"/>
+                            <coord x="11062" y="21572" flags="32"/>
+                            <coord x="5997" y="32495" flags="32"/>
+                            <coord x="15381" y="36847" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="112">
+                        <coords count="5">
+                            <coord x="16730" y="27672" flags="32"/>
+                            <coord x="14409" y="32854" flags="32"/>
+                            <coord x="9573" y="30688" flags="32"/>
+                            <coord x="11894" y="25506" flags="32"/>
+                            <coord x="16730" y="27672" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="112">
+                        <coords count="5">
+                            <coord x="10827" y="22089" flags="32"/>
+                            <coord x="6332" y="31773" flags="32"/>
+                            <coord x="3672" y="30538" flags="32"/>
+                            <coord x="8167" y="20854" flags="32"/>
+                            <coord x="10827" y="22089" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="112">
+                        <coords count="9">
+                            <coord x="9286" y="36737" flags="32"/>
+                            <coord x="6385" y="43140" flags="32"/>
+                            <coord x="2082" y="41190" flags="32"/>
+                            <coord x="2735" y="39748" flags="32"/>
+                            <coord x="673" y="38814" flags="32"/>
+                            <coord x="3248" y="33131" flags="32"/>
+                            <coord x="5395" y="34104" flags="32"/>
+                            <coord x="5068" y="34826" flags="32"/>
+                            <coord x="9286" y="36737" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="112">
+                        <coords count="2">
+                            <coord x="6044" y="32575" flags="32"/>
+                            <coord x="5374" y="34066" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="112">
+                        <coords count="2">
+                            <coord x="7105" y="32995" flags="32"/>
+                            <coord x="6064" y="35256" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="111">
+                        <coords count="13">
+                            <coord x="20446" y="25924" flags="32"/>
+                            <coord x="15381" y="36847"/>
+                            <coord x="5997" y="32495"/>
+                            <coord x="6323" y="31789"/>
+                            <coord x="6324" y="31789"/>
+                            <coord x="6347" y="31741"/>
+                            <coord x="11062" y="21572"/>
+                            <coord x="20446" y="25924" flags="50"/>
+                            <coord x="9573" y="30688"/>
+                            <coord x="14409" y="32854"/>
+                            <coord x="16730" y="27672"/>
+                            <coord x="11894" y="25506"/>
+                            <coord x="9573" y="30688" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="111">
+                        <coords count="5">
+                            <coord x="10827" y="22089" flags="32"/>
+                            <coord x="6332" y="31773" flags="32"/>
+                            <coord x="3672" y="30538" flags="32"/>
+                            <coord x="8167" y="20854" flags="32"/>
+                            <coord x="10827" y="22089" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="111">
+                        <coords count="9">
+                            <coord x="9286" y="36737" flags="32"/>
+                            <coord x="6385" y="43140" flags="32"/>
+                            <coord x="2082" y="41190" flags="32"/>
+                            <coord x="2735" y="39748" flags="32"/>
+                            <coord x="673" y="38814" flags="32"/>
+                            <coord x="3248" y="33131" flags="32"/>
+                            <coord x="5395" y="34104" flags="32"/>
+                            <coord x="5068" y="34826" flags="32"/>
+                            <coord x="9286" y="36737" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="33">
+                            <coord x="4990" y="66702" flags="32"/>
+                            <coord x="6297" y="63714" flags="32"/>
+                            <coord x="5224" y="63245" flags="32"/>
+                            <coord x="5113" y="63500" flags="32"/>
+                            <coord x="1648" y="61984" flags="32"/>
+                            <coord x="1757" y="61734" flags="32"/>
+                            <coord x="-3" y="60964" flags="32"/>
+                            <coord x="-109" y="61207" flags="32"/>
+                            <coord x="-1245" y="60710" flags="32"/>
+                            <coord x="-1378" y="61013" flags="32"/>
+                            <coord x="-2919" y="60339" flags="32"/>
+                            <coord x="-2788" y="60039" flags="32"/>
+                            <coord x="-3653" y="59660" flags="32"/>
+                            <coord x="-3546" y="59415" flags="32"/>
+                            <coord x="-5242" y="58673" flags="32"/>
+                            <coord x="-5350" y="58921" flags="32"/>
+                            <coord x="-6459" y="58436" flags="32"/>
+                            <coord x="-6588" y="58732" flags="32"/>
+                            <coord x="-8194" y="58030" flags="32"/>
+                            <coord x="-8070" y="57747" flags="32"/>
+                            <coord x="-8885" y="57390" flags="32"/>
+                            <coord x="-8774" y="57137" flags="32"/>
+                            <coord x="-10517" y="56375" flags="32"/>
+                            <coord x="-10626" y="56623" flags="32"/>
+                            <coord x="-11739" y="56136" flags="32"/>
+                            <coord x="-11868" y="56430" flags="32"/>
+                            <coord x="-13421" y="55751" flags="32"/>
+                            <coord x="-13294" y="55460" flags="32"/>
+                            <coord x="-14127" y="55096" flags="32"/>
+                            <coord x="-14022" y="54857" flags="32"/>
+                            <coord x="-14819" y="54508" flags="32"/>
+                            <coord x="-16115" y="57471" flags="32"/>
+                            <coord x="4990" y="66702" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="9">
+                            <coord x="11470" y="59619" flags="32"/>
+                            <coord x="8311" y="58341" flags="32"/>
+                            <coord x="7978" y="59163" flags="32"/>
+                            <coord x="8271" y="59282" flags="32"/>
+                            <coord x="6825" y="62856" flags="32"/>
+                            <coord x="6529" y="62736" flags="32"/>
+                            <coord x="6133" y="63716" flags="32"/>
+                            <coord x="9296" y="64995" flags="32"/>
+                            <coord x="11470" y="59619" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-14389" y="58245" flags="32"/>
+                            <coord x="-15830" y="57596" flags="32"/>
+                            <coord x="-16046" y="58075" flags="32"/>
+                            <coord x="-14605" y="58724" flags="32"/>
+                            <coord x="-14389" y="58245" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-9238" y="60481" flags="32"/>
+                            <coord x="-12309" y="59136" flags="32"/>
+                            <coord x="-12498" y="59567" flags="32"/>
+                            <coord x="-9427" y="60912" flags="32"/>
+                            <coord x="-9238" y="60481" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-4046" y="62760" flags="32"/>
+                            <coord x="-7051" y="61436" flags="32"/>
+                            <coord x="-7220" y="61819" flags="32"/>
+                            <coord x="-4215" y="63143" flags="32"/>
+                            <coord x="-4046" y="62760" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="3440" y="66028" flags="32"/>
+                            <coord x="4693" y="66572" flags="32"/>
+                            <coord x="4556" y="66888" flags="32"/>
+                            <coord x="3303" y="66344" flags="32"/>
+                            <coord x="3440" y="66028" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="164">
+                        <coords count="5">
+                            <coord x="1190" y="65037" flags="32"/>
+                            <coord x="-1733" y="63761" flags="32"/>
+                            <coord x="-1874" y="64083" flags="32"/>
+                            <coord x="1049" y="65359" flags="32"/>
+                            <coord x="1190" y="65037" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="110">
+                        <coords count="11">
+                            <coord x="-36263" y="34335" flags="33"/>
+                            <coord x="-36502" y="34818"/>
+                            <coord x="-37106" y="34993"/>
+                            <coord x="-37605" y="34774"/>
+                            <coord x="-44382" y="31742" flags="33"/>
+                            <coord x="-44918" y="31508"/>
+                            <coord x="-45166" y="30887"/>
+                            <coord x="-44936" y="30346"/>
+                            <coord x="-43353" y="26801"/>
+                            <coord x="-34637" y="30706"/>
+                            <coord x="-36263" y="34335" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </objects>
             </part>
         </parts>
         <templates count="2" first_front_template="1">
@@ -6907,7 +7700,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
         </templates>
         <view>
             <grid color="#ffaa00" display="0" alignment="0" additional_rotation="0" unit="1" h_spacing="100" v_spacing="100" h_offset="0" v_offset="0" snapping_enabled="true"/>
-            <map_view zoom="1" rotation="0" position_x="-24201" position_y="-17562" grid="true">
+            <map_view zoom="2.82843" rotation="0" position_x="-3196" position_y="21518" overprinting_simulation_enabled="true">
                 <map opacity="1" visible="true"/>
                 <templates count="1">
                     <ref template="0" visible="true" opacity="1"/>
@@ -6916,7 +7709,2336 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
         </view>
     </barrier>
     <barrier version="6" required="0.6.0">
-        <undo/>
+        <undo>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="16"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="5">
+                            <coord x="-17266" y="20241" flags="32"/>
+                            <coord x="-12583" y="24330" flags="32"/>
+                            <coord x="-14426" y="26441" flags="32"/>
+                            <coord x="-19109" y="22352" flags="32"/>
+                            <coord x="-17266" y="20241" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="16"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="5">
+                            <coord x="-23534" y="18501" flags="32"/>
+                            <coord x="-18851" y="22590" flags="32"/>
+                            <coord x="-20694" y="24701" flags="32"/>
+                            <coord x="-25377" y="20612" flags="32"/>
+                            <coord x="-23534" y="18501" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="17"/>
+                </affected_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="17"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="5">
+                            <coord x="-23138" y="17878" flags="32"/>
+                            <coord x="-18455" y="21967" flags="32"/>
+                            <coord x="-20298" y="24078" flags="32"/>
+                            <coord x="-24981" y="19989" flags="32"/>
+                            <coord x="-23138" y="17878" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="16"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="5">
+                            <coord x="-23138" y="17878" flags="32"/>
+                            <coord x="-18455" y="21967" flags="32"/>
+                            <coord x="-20298" y="24078" flags="32"/>
+                            <coord x="-24981" y="19989" flags="32"/>
+                            <coord x="-23138" y="17878" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="14"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="5">
+                            <coord x="-17266" y="20241" flags="32"/>
+                            <coord x="-12583" y="24330" flags="32"/>
+                            <coord x="-14426" y="26441" flags="32"/>
+                            <coord x="-19109" y="22352" flags="32"/>
+                            <coord x="-17266" y="20241" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="14"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="5">
+                            <coord x="-17252" y="20170" flags="32"/>
+                            <coord x="-12569" y="24259" flags="32"/>
+                            <coord x="-14412" y="26370" flags="32"/>
+                            <coord x="-19095" y="22281" flags="32"/>
+                            <coord x="-17252" y="20170" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="16"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="5">
+                            <coord x="-23138" y="17850" flags="32"/>
+                            <coord x="-18455" y="21939" flags="32"/>
+                            <coord x="-20298" y="24050" flags="32"/>
+                            <coord x="-24981" y="19961" flags="32"/>
+                            <coord x="-23138" y="17850" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="14"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="5">
+                            <coord x="-17266" y="20184" flags="32"/>
+                            <coord x="-12583" y="24273" flags="32"/>
+                            <coord x="-14426" y="26384" flags="32"/>
+                            <coord x="-19109" y="22295" flags="32"/>
+                            <coord x="-17266" y="20184" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="14"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="5">
+                            <coord x="-17266" y="20204" flags="32"/>
+                            <coord x="-12583" y="24293" flags="32"/>
+                            <coord x="-14426" y="26404" flags="32"/>
+                            <coord x="-19109" y="22315" flags="32"/>
+                            <coord x="-17266" y="20204" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="2">
+                        <affected_objects part="0">
+                            <ref object="14"/>
+                            <ref object="15"/>
+                            <ref object="16"/>
+                            <ref object="17"/>
+                        </affected_objects>
+                        <contained_objects count="4">
+                            <object type="1" symbol="111">
+                                <coords count="5">
+                                    <coord x="-17238" y="20204" flags="32"/>
+                                    <coord x="-12555" y="24293" flags="32"/>
+                                    <coord x="-14398" y="26404" flags="32"/>
+                                    <coord x="-19081" y="22315" flags="32"/>
+                                    <coord x="-17238" y="20204" flags="50"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                            <object type="1" symbol="111">
+                                <coords count="5">
+                                    <coord x="-11324" y="22688" flags="32"/>
+                                    <coord x="-6641" y="26777" flags="32"/>
+                                    <coord x="-8484" y="28888" flags="32"/>
+                                    <coord x="-13167" y="24799" flags="32"/>
+                                    <coord x="-11324" y="22688" flags="50"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                            <object type="1" symbol="111">
+                                <coords count="5">
+                                    <coord x="-23195" y="17850" flags="32"/>
+                                    <coord x="-18512" y="21939" flags="32"/>
+                                    <coord x="-20355" y="24050" flags="32"/>
+                                    <coord x="-25038" y="19961" flags="32"/>
+                                    <coord x="-23195" y="17850" flags="50"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                            <object type="1" symbol="111">
+                                <coords count="5">
+                                    <coord x="-29052" y="15359" flags="32"/>
+                                    <coord x="-24369" y="19448" flags="32"/>
+                                    <coord x="-26212" y="21559" flags="32"/>
+                                    <coord x="-30895" y="17470" flags="32"/>
+                                    <coord x="-29052" y="15359" flags="50"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="1">
+                        <affected_objects part="0">
+                            <ref object="14"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="3">
+                <affected_objects part="0">
+                    <ref object="14"/>
+                </affected_objects>
+                <switch_symbol count="1">
+                    <ref symbol="111"/>
+                </switch_symbol>
+            </step>
+            <step type="3">
+                <affected_objects part="0">
+                    <ref object="12"/>
+                    <ref object="13"/>
+                </affected_objects>
+                <switch_symbol count="2">
+                    <ref symbol="111"/>
+                    <ref symbol="111"/>
+                </switch_symbol>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="14"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="110">
+                        <coords count="17">
+                            <coord x="-24494" y="19338"/>
+                            <coord x="-23195" y="17850" flags="32"/>
+                            <coord x="-18649" y="21820"/>
+                            <coord x="-17238" y="20204" flags="32"/>
+                            <coord x="-12652" y="24209"/>
+                            <coord x="-11324" y="22688" flags="32"/>
+                            <coord x="-6641" y="26777"/>
+                            <coord x="-8484" y="28888"/>
+                            <coord x="-13070" y="24883"/>
+                            <coord x="-14398" y="26404" flags="32"/>
+                            <coord x="-18944" y="22434"/>
+                            <coord x="-20355" y="24050" flags="32"/>
+                            <coord x="-24913" y="20071"/>
+                            <coord x="-26212" y="21559" flags="32"/>
+                            <coord x="-30895" y="17470"/>
+                            <coord x="-29052" y="15359"/>
+                            <coord x="-24494" y="19338" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="15"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="16"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="17"/>
+                </affected_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="15"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="110">
+                        <coords count="5">
+                            <coord x="-9395" y="32515" flags="32"/>
+                            <coord x="-14828" y="44315" flags="32"/>
+                            <coord x="-17458" y="43104" flags="32"/>
+                            <coord x="-12025" y="31304" flags="32"/>
+                            <coord x="-9395" y="32515" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="18"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="19"/>
+                </affected_objects>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="2">
+                        <affected_objects part="0">
+                            <ref object="18"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="110">
+                                <coords count="5">
+                                    <coord x="-38289" y="25889" flags="32"/>
+                                    <coord x="-33066" y="13543" flags="32"/>
+                                    <coord x="-36567" y="12062" flags="32"/>
+                                    <coord x="-41790" y="24408" flags="32"/>
+                                    <coord x="-38289" y="25889" flags="50"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="1">
+                        <affected_objects part="0">
+                            <ref object="19"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="2">
+                        <affected_objects part="0">
+                            <ref object="19"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="112">
+                                <coords count="5">
+                                    <coord x="-38289" y="25889" flags="32"/>
+                                    <coord x="-33066" y="13543" flags="32"/>
+                                    <coord x="-36567" y="12062" flags="32"/>
+                                    <coord x="-41790" y="24408" flags="32"/>
+                                    <coord x="-38289" y="25889" flags="50"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="1">
+                        <affected_objects part="0">
+                            <ref object="19"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="3">
+                <affected_objects part="0">
+                    <ref object="19"/>
+                </affected_objects>
+                <switch_symbol count="1">
+                    <ref symbol="112"/>
+                </switch_symbol>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="20"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="21"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="22"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="23"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="24"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="25"/>
+                </affected_objects>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="2">
+                        <affected_objects part="0">
+                            <ref object="25"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="110">
+                                <coords count="3">
+                                    <coord x="-33183" y="34895"/>
+                                    <coord x="-35984" y="41619"/>
+                                    <coord x="-30119" y="44062"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="1">
+                        <affected_objects part="0">
+                            <ref object="25"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="24"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="110">
+                        <coords count="17">
+                            <coord x="-29239" y="40371" flags="32"/>
+                            <coord x="-28762" y="39276" flags="32"/>
+                            <coord x="-30593" y="38479" flags="32"/>
+                            <coord x="-30280" y="37761" flags="32"/>
+                            <coord x="-29985" y="37890" flags="32"/>
+                            <coord x="-29178" y="36036" flags="32"/>
+                            <coord x="-31920" y="34842" flags="32"/>
+                            <coord x="-32485" y="36138" flags="32"/>
+                            <coord x="-32660" y="36062" flags="32"/>
+                            <coord x="-33721" y="38497" flags="32"/>
+                            <coord x="-33541" y="38576" flags="32"/>
+                            <coord x="-34165" y="40008" flags="32"/>
+                            <coord x="-29948" y="41845" flags="32"/>
+                            <coord x="-30548" y="43222" flags="32"/>
+                            <coord x="-24705" y="45767" flags="32"/>
+                            <coord x="-23453" y="42892" flags="32"/>
+                            <coord x="-29239" y="40371" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="25"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="112">
+                        <coords count="3">
+                            <coord x="-33183" y="34895"/>
+                            <coord x="-35984" y="41619"/>
+                            <coord x="-30119" y="44062"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="25"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="112">
+                        <coords count="4">
+                            <coord x="-31391" y="35641" flags="32"/>
+                            <coord x="-33183" y="34895"/>
+                            <coord x="-35984" y="41619"/>
+                            <coord x="-30119" y="44062" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="25"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="112">
+                        <coords count="5">
+                            <coord x="-31391" y="35641" flags="32"/>
+                            <coord x="-33183" y="34895"/>
+                            <coord x="-35984" y="41619"/>
+                            <coord x="-30119" y="44062" flags="32"/>
+                            <coord x="-30010" y="43801" flags="48"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="25"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="112">
+                        <coords count="5">
+                            <coord x="-31391" y="35641" flags="32"/>
+                            <coord x="-33183" y="34895"/>
+                            <coord x="-35984" y="41619"/>
+                            <coord x="-30034" y="44104" flags="32"/>
+                            <coord x="-30010" y="43801" flags="48"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="25"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="112">
+                        <coords count="5">
+                            <coord x="-31391" y="35641" flags="32"/>
+                            <coord x="-33183" y="34895"/>
+                            <coord x="-35984" y="41619"/>
+                            <coord x="-30034" y="44104" flags="32"/>
+                            <coord x="-29939" y="43851" flags="48"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="25"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="112">
+                        <coords count="5">
+                            <coord x="-31391" y="35641" flags="32"/>
+                            <coord x="-33183" y="34895"/>
+                            <coord x="-35984" y="41619"/>
+                            <coord x="-30048" y="44083" flags="32"/>
+                            <coord x="-29939" y="43851" flags="48"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="26"/>
+                </affected_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="26"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="112">
+                        <coords count="3">
+                            <coord x="-30091" y="44065" flags="32"/>
+                            <coord x="-29987" y="43814" flags="32"/>
+                            <coord x="-29959" y="43825" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="0">
+                        <affected_objects part="0">
+                            <ref object="26"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="112">
+                                <coords count="2">
+                                    <coord x="-30091" y="44065" flags="32"/>
+                                    <coord x="-29987" y="43814" flags="48"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="2">
+                        <affected_objects part="0">
+                            <ref object="25"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="112">
+                                <coords count="4">
+                                    <coord x="-31391" y="35641" flags="32"/>
+                                    <coord x="-33183" y="34895"/>
+                                    <coord x="-35984" y="41619"/>
+                                    <coord x="-30048" y="44083" flags="48"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="25"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="112">
+                        <coords count="5">
+                            <coord x="-31391" y="35641" flags="32"/>
+                            <coord x="-33183" y="34895"/>
+                            <coord x="-35984" y="41619"/>
+                            <coord x="-30069" y="44074" flags="32"/>
+                            <coord x="-29987" y="43814" flags="48"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="25"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="112">
+                        <coords count="5">
+                            <coord x="-31391" y="35641" flags="32"/>
+                            <coord x="-33183" y="34895"/>
+                            <coord x="-35984" y="41619"/>
+                            <coord x="-30069" y="44074" flags="32"/>
+                            <coord x="-29966" y="43814" flags="48"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="26"/>
+                </affected_objects>
+            </step>
+            <step type="2">
+                <affected_objects part="0">
+                    <ref object="26"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="3">
+                            <coord x="-31906" y="42371"/>
+                            <coord x="-26642" y="36513"/>
+                            <coord x="-31906" y="42371" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="26"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="27"/>
+                </affected_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="27"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="110">
+                        <coords count="17">
+                            <coord x="-18188" y="58127" flags="32"/>
+                            <coord x="-16901" y="55238" flags="32"/>
+                            <coord x="-19390" y="54129" flags="32"/>
+                            <coord x="-19203" y="53708" flags="32"/>
+                            <coord x="-20440" y="53157" flags="32"/>
+                            <coord x="-20625" y="53573" flags="32"/>
+                            <coord x="-22780" y="52613" flags="32"/>
+                            <coord x="-22304" y="51544" flags="32"/>
+                            <coord x="-24175" y="50711" flags="32"/>
+                            <coord x="-23846" y="49972" flags="32"/>
+                            <coord x="-23508" y="50123" flags="32"/>
+                            <coord x="-22734" y="48384" flags="32"/>
+                            <coord x="-25781" y="47027" flags="32"/>
+                            <coord x="-28046" y="52112" flags="32"/>
+                            <coord x="-23727" y="54036" flags="32"/>
+                            <coord x="-24331" y="55391" flags="32"/>
+                            <coord x="-18188" y="58127" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="27"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="110">
+                        <coords count="17">
+                            <coord x="-17749" y="58452" flags="32"/>
+                            <coord x="-16462" y="55563" flags="32"/>
+                            <coord x="-18951" y="54454" flags="32"/>
+                            <coord x="-18764" y="54033" flags="32"/>
+                            <coord x="-20001" y="53482" flags="32"/>
+                            <coord x="-20186" y="53898" flags="32"/>
+                            <coord x="-22341" y="52938" flags="32"/>
+                            <coord x="-21865" y="51869" flags="32"/>
+                            <coord x="-23736" y="51036" flags="32"/>
+                            <coord x="-23407" y="50297" flags="32"/>
+                            <coord x="-23069" y="50448" flags="32"/>
+                            <coord x="-22295" y="48709" flags="32"/>
+                            <coord x="-25342" y="47352" flags="32"/>
+                            <coord x="-27607" y="52437" flags="32"/>
+                            <coord x="-23288" y="54361" flags="32"/>
+                            <coord x="-23892" y="55716" flags="32"/>
+                            <coord x="-17749" y="58452" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="27"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="110">
+                        <coords count="17">
+                            <coord x="-17791" y="58466" flags="32"/>
+                            <coord x="-16504" y="55577" flags="32"/>
+                            <coord x="-18993" y="54468" flags="32"/>
+                            <coord x="-18806" y="54047" flags="32"/>
+                            <coord x="-20043" y="53496" flags="32"/>
+                            <coord x="-20228" y="53912" flags="32"/>
+                            <coord x="-22383" y="52952" flags="32"/>
+                            <coord x="-21907" y="51883" flags="32"/>
+                            <coord x="-23778" y="51050" flags="32"/>
+                            <coord x="-23449" y="50311" flags="32"/>
+                            <coord x="-23111" y="50462" flags="32"/>
+                            <coord x="-22337" y="48723" flags="32"/>
+                            <coord x="-25384" y="47366" flags="32"/>
+                            <coord x="-27649" y="52451" flags="32"/>
+                            <coord x="-23330" y="54375" flags="32"/>
+                            <coord x="-23934" y="55730" flags="32"/>
+                            <coord x="-17791" y="58466" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="27"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="110">
+                        <coords count="17">
+                            <coord x="-17805" y="58480" flags="32"/>
+                            <coord x="-16518" y="55591" flags="32"/>
+                            <coord x="-19007" y="54482" flags="32"/>
+                            <coord x="-18820" y="54061" flags="32"/>
+                            <coord x="-20057" y="53510" flags="32"/>
+                            <coord x="-20242" y="53926" flags="32"/>
+                            <coord x="-22397" y="52966" flags="32"/>
+                            <coord x="-21921" y="51897" flags="32"/>
+                            <coord x="-23792" y="51064" flags="32"/>
+                            <coord x="-23463" y="50325" flags="32"/>
+                            <coord x="-23125" y="50476" flags="32"/>
+                            <coord x="-22351" y="48737" flags="32"/>
+                            <coord x="-25398" y="47380" flags="32"/>
+                            <coord x="-27663" y="52465" flags="32"/>
+                            <coord x="-23344" y="54389" flags="32"/>
+                            <coord x="-23948" y="55744" flags="32"/>
+                            <coord x="-17805" y="58480" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="27"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="110">
+                        <coords count="17">
+                            <coord x="-17876" y="58423" flags="32"/>
+                            <coord x="-16589" y="55534" flags="32"/>
+                            <coord x="-19078" y="54425" flags="32"/>
+                            <coord x="-18891" y="54004" flags="32"/>
+                            <coord x="-20128" y="53453" flags="32"/>
+                            <coord x="-20313" y="53869" flags="32"/>
+                            <coord x="-22468" y="52909" flags="32"/>
+                            <coord x="-21992" y="51840" flags="32"/>
+                            <coord x="-23863" y="51007" flags="32"/>
+                            <coord x="-23534" y="50268" flags="32"/>
+                            <coord x="-23196" y="50419" flags="32"/>
+                            <coord x="-22422" y="48680" flags="32"/>
+                            <coord x="-25469" y="47323" flags="32"/>
+                            <coord x="-27734" y="52408" flags="32"/>
+                            <coord x="-23415" y="54332" flags="32"/>
+                            <coord x="-24019" y="55687" flags="32"/>
+                            <coord x="-17876" y="58423" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="28"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="29"/>
+                </affected_objects>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="2">
+                        <affected_objects part="0">
+                            <ref object="29"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="99">
+                                <coords count="5">
+                                    <coord x="-12661" y="45453" flags="32"/>
+                                    <coord x="-20145" y="47594" flags="32"/>
+                                    <coord x="-19264" y="40791" flags="32"/>
+                                    <coord x="-25047" y="35748" flags="32"/>
+                                    <coord x="-32170" y="33327" flags="32"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="1">
+                        <affected_objects part="0">
+                            <ref object="29"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="30"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="31"/>
+                </affected_objects>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="2">
+                        <affected_objects part="0">
+                            <ref object="31"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="99">
+                                <coords count="2">
+                                    <coord x="-8290" y="38244" flags="32"/>
+                                    <coord x="-8350" y="40665" flags="32"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="1">
+                        <affected_objects part="0">
+                            <ref object="31"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="31"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="99">
+                        <coords count="2">
+                            <coord x="-8290" y="38244"/>
+                            <coord x="-8335" y="40048" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="32"/>
+                </affected_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="32"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="110">
+                        <coords count="13">
+                            <coord x="-2801" y="-7384" flags="32"/>
+                            <coord x="5017" y="-4248" flags="32"/>
+                            <coord x="892" y="6035" flags="32"/>
+                            <coord x="-2136" y="4820" flags="32"/>
+                            <coord x="31" y="-581" flags="32"/>
+                            <coord x="679" y="-321" flags="32"/>
+                            <coord x="1405" y="-2131" flags="32"/>
+                            <coord x="-1552" y="-3317" flags="32"/>
+                            <coord x="-2277" y="-1510" flags="32"/>
+                            <coord x="-1651" y="-1259" flags="32"/>
+                            <coord x="-3826" y="4164" flags="32"/>
+                            <coord x="-6933" y="2918" flags="32"/>
+                            <coord x="-2801" y="-7384" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="33"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="34"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="35"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="36"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="37"/>
+                </affected_objects>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="2">
+                        <affected_objects part="0">
+                            <ref object="37"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="108">
+                                <coords count="7">
+                                    <coord x="30702" y="1048" flags="32"/>
+                                    <coord x="29978" y="1341" flags="32"/>
+                                    <coord x="26829" y="8765" flags="32"/>
+                                    <coord x="27197" y="9675" flags="32"/>
+                                    <coord x="28079" y="10049" flags="32"/>
+                                    <coord x="31715" y="1477" flags="32"/>
+                                    <coord x="30702" y="1048" flags="50"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="1">
+                        <affected_objects part="0">
+                            <ref object="37"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="37"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="108">
+                        <coords count="6">
+                            <coord x="31715" y="1477"/>
+                            <coord x="30702" y="1048"/>
+                            <coord x="29978" y="1341" flags="32"/>
+                            <coord x="26829" y="8765" flags="32"/>
+                            <coord x="27197" y="9675" flags="32"/>
+                            <coord x="28079" y="10049" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="4">
+                <affected_objects part="0">
+                    <ref object="37"/>
+                </affected_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="37"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="108">
+                        <coords count="6">
+                            <coord x="28079" y="10049"/>
+                            <coord x="27197" y="9675" flags="32"/>
+                            <coord x="26829" y="8765" flags="32"/>
+                            <coord x="29978" y="1341" flags="32"/>
+                            <coord x="30702" y="1048"/>
+                            <coord x="32147" y="1732" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="37"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="108">
+                        <coords count="6">
+                            <coord x="28079" y="10049"/>
+                            <coord x="27217" y="9635" flags="32"/>
+                            <coord x="26829" y="8765" flags="32"/>
+                            <coord x="29978" y="1341" flags="32"/>
+                            <coord x="30702" y="1048"/>
+                            <coord x="32147" y="1732" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="37"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="108">
+                        <coords count="6">
+                            <coord x="28079" y="10049"/>
+                            <coord x="27247" y="9625" flags="32"/>
+                            <coord x="26829" y="8765" flags="32"/>
+                            <coord x="29978" y="1341" flags="32"/>
+                            <coord x="30702" y="1048"/>
+                            <coord x="32147" y="1732" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="37"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="108">
+                        <coords count="6">
+                            <coord x="28109" y="9989"/>
+                            <coord x="27247" y="9625" flags="32"/>
+                            <coord x="26829" y="8765" flags="32"/>
+                            <coord x="29978" y="1341" flags="32"/>
+                            <coord x="30702" y="1048"/>
+                            <coord x="32147" y="1732" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="37"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="108">
+                        <coords count="6">
+                            <coord x="28129" y="9939"/>
+                            <coord x="27247" y="9625" flags="32"/>
+                            <coord x="26829" y="8765" flags="32"/>
+                            <coord x="29978" y="1341" flags="32"/>
+                            <coord x="30702" y="1048"/>
+                            <coord x="32147" y="1732" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="37"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="108">
+                        <coords count="6">
+                            <coord x="28129" y="9939"/>
+                            <coord x="27257" y="9595" flags="32"/>
+                            <coord x="26829" y="8765" flags="32"/>
+                            <coord x="29978" y="1341" flags="32"/>
+                            <coord x="30702" y="1048"/>
+                            <coord x="32147" y="1732" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="37"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="108">
+                        <coords count="6">
+                            <coord x="28129" y="9939"/>
+                            <coord x="27287" y="9535" flags="32"/>
+                            <coord x="26829" y="8765" flags="32"/>
+                            <coord x="29978" y="1341" flags="32"/>
+                            <coord x="30702" y="1048"/>
+                            <coord x="32147" y="1732" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="37"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="108">
+                        <coords count="6">
+                            <coord x="28129" y="9939"/>
+                            <coord x="27337" y="9525" flags="32"/>
+                            <coord x="26829" y="8765" flags="32"/>
+                            <coord x="29978" y="1341" flags="32"/>
+                            <coord x="30702" y="1048"/>
+                            <coord x="32147" y="1732" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="37"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="108">
+                        <coords count="6">
+                            <coord x="28129" y="9939"/>
+                            <coord x="27337" y="9525" flags="32"/>
+                            <coord x="26889" y="8625" flags="32"/>
+                            <coord x="29978" y="1341" flags="32"/>
+                            <coord x="30702" y="1048"/>
+                            <coord x="32147" y="1732" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="38"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="39"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="40"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="41"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="42"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="43"/>
+                </affected_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="42"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="112">
+                        <coords count="2">
+                            <coord x="6044" y="32575" flags="32"/>
+                            <coord x="5324" y="34076" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="44"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="45"/>
+                </affected_objects>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="2">
+                        <affected_objects part="0">
+                            <ref object="45"/>
+                            <ref object="44"/>
+                        </affected_objects>
+                        <contained_objects count="2">
+                            <object type="1" symbol="111">
+                                <coords count="19">
+                                    <coord x="10916" y="27782"/>
+                                    <coord x="8706" y="26658"/>
+                                    <coord x="8705" y="26658"/>
+                                    <coord x="6347" y="31741"/>
+                                    <coord x="6324" y="31789"/>
+                                    <coord x="6323" y="31789"/>
+                                    <coord x="5997" y="32495" flags="32"/>
+                                    <coord x="15381" y="36847"/>
+                                    <coord x="18009" y="31180"/>
+                                    <coord x="15699" y="29975"/>
+                                    <coord x="15698" y="29975"/>
+                                    <coord x="15467" y="30493"/>
+                                    <coord x="15297" y="30872"/>
+                                    <coord x="15296" y="30872"/>
+                                    <coord x="14409" y="32854" flags="32"/>
+                                    <coord x="9573" y="30688" flags="32"/>
+                                    <coord x="10729" y="28108"/>
+                                    <coord x="10716" y="28102"/>
+                                    <coord x="10916" y="27782" flags="18"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                            <object type="1" symbol="111">
+                                <coords count="13">
+                                    <coord x="8475" y="27182"/>
+                                    <coord x="10670" y="28238"/>
+                                    <coord x="10670" y="28237"/>
+                                    <coord x="11894" y="25506" flags="32"/>
+                                    <coord x="16730" y="27672"/>
+                                    <coord x="15467" y="30493"/>
+                                    <coord x="17673" y="31904"/>
+                                    <coord x="17673" y="31903"/>
+                                    <coord x="20446" y="25924" flags="32"/>
+                                    <coord x="11062" y="21572" flags="32"/>
+                                    <coord x="8584" y="26915"/>
+                                    <coord x="8555" y="26902"/>
+                                    <coord x="8475" y="27182" flags="18"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="1">
+                        <affected_objects part="0">
+                            <ref object="44"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="44"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="28">
+                            <coord x="20446" y="25924" flags="32"/>
+                            <coord x="18008" y="31180"/>
+                            <coord x="18009" y="31180"/>
+                            <coord x="15381" y="36847"/>
+                            <coord x="5997" y="32495"/>
+                            <coord x="6323" y="31789"/>
+                            <coord x="6324" y="31789"/>
+                            <coord x="6347" y="31741"/>
+                            <coord x="8496" y="27109"/>
+                            <coord x="8555" y="26902"/>
+                            <coord x="8584" y="26915"/>
+                            <coord x="11062" y="21572"/>
+                            <coord x="20446" y="25924" flags="50"/>
+                            <coord x="10882" y="27765"/>
+                            <coord x="10916" y="27782"/>
+                            <coord x="10767" y="28020"/>
+                            <coord x="10728" y="28108"/>
+                            <coord x="10729" y="28108"/>
+                            <coord x="9573" y="30688"/>
+                            <coord x="14409" y="32854"/>
+                            <coord x="15296" y="30872"/>
+                            <coord x="15297" y="30872"/>
+                            <coord x="15467" y="30493"/>
+                            <coord x="15698" y="29975"/>
+                            <coord x="15699" y="29975"/>
+                            <coord x="16730" y="27672"/>
+                            <coord x="11894" y="25506"/>
+                            <coord x="10882" y="27765" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="44"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="27">
+                            <coord x="20446" y="25924" flags="32"/>
+                            <coord x="18008" y="31180"/>
+                            <coord x="18009" y="31180"/>
+                            <coord x="15381" y="36847"/>
+                            <coord x="5997" y="32495"/>
+                            <coord x="6323" y="31789"/>
+                            <coord x="6324" y="31789"/>
+                            <coord x="6347" y="31741"/>
+                            <coord x="8496" y="27109"/>
+                            <coord x="8555" y="26902"/>
+                            <coord x="8584" y="26915"/>
+                            <coord x="11062" y="21572"/>
+                            <coord x="20446" y="25924" flags="50"/>
+                            <coord x="10882" y="27765"/>
+                            <coord x="10916" y="27782"/>
+                            <coord x="10767" y="28020"/>
+                            <coord x="10728" y="28108"/>
+                            <coord x="9573" y="30688"/>
+                            <coord x="14409" y="32854"/>
+                            <coord x="15296" y="30872"/>
+                            <coord x="15297" y="30872"/>
+                            <coord x="15467" y="30493"/>
+                            <coord x="15698" y="29975"/>
+                            <coord x="15699" y="29975"/>
+                            <coord x="16730" y="27672"/>
+                            <coord x="11894" y="25506"/>
+                            <coord x="10882" y="27765" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="44"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="26">
+                            <coord x="20446" y="25924" flags="32"/>
+                            <coord x="18008" y="31180"/>
+                            <coord x="18009" y="31180"/>
+                            <coord x="15381" y="36847"/>
+                            <coord x="5997" y="32495"/>
+                            <coord x="6323" y="31789"/>
+                            <coord x="6324" y="31789"/>
+                            <coord x="6347" y="31741"/>
+                            <coord x="8496" y="27109"/>
+                            <coord x="8555" y="26902"/>
+                            <coord x="8584" y="26915"/>
+                            <coord x="11062" y="21572"/>
+                            <coord x="20446" y="25924" flags="50"/>
+                            <coord x="10882" y="27765"/>
+                            <coord x="10916" y="27782"/>
+                            <coord x="10728" y="28108"/>
+                            <coord x="9573" y="30688"/>
+                            <coord x="14409" y="32854"/>
+                            <coord x="15296" y="30872"/>
+                            <coord x="15297" y="30872"/>
+                            <coord x="15467" y="30493"/>
+                            <coord x="15698" y="29975"/>
+                            <coord x="15699" y="29975"/>
+                            <coord x="16730" y="27672"/>
+                            <coord x="11894" y="25506"/>
+                            <coord x="10882" y="27765" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="44"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="25">
+                            <coord x="20446" y="25924" flags="32"/>
+                            <coord x="18008" y="31180"/>
+                            <coord x="18009" y="31180"/>
+                            <coord x="15381" y="36847"/>
+                            <coord x="5997" y="32495"/>
+                            <coord x="6323" y="31789"/>
+                            <coord x="6324" y="31789"/>
+                            <coord x="6347" y="31741"/>
+                            <coord x="8496" y="27109"/>
+                            <coord x="8555" y="26902"/>
+                            <coord x="8584" y="26915"/>
+                            <coord x="11062" y="21572"/>
+                            <coord x="20446" y="25924" flags="50"/>
+                            <coord x="10882" y="27765"/>
+                            <coord x="10916" y="27782"/>
+                            <coord x="9573" y="30688"/>
+                            <coord x="14409" y="32854"/>
+                            <coord x="15296" y="30872"/>
+                            <coord x="15297" y="30872"/>
+                            <coord x="15467" y="30493"/>
+                            <coord x="15698" y="29975"/>
+                            <coord x="15699" y="29975"/>
+                            <coord x="16730" y="27672"/>
+                            <coord x="11894" y="25506"/>
+                            <coord x="10882" y="27765" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="44"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="24">
+                            <coord x="20446" y="25924" flags="32"/>
+                            <coord x="18008" y="31180"/>
+                            <coord x="18009" y="31180"/>
+                            <coord x="15381" y="36847"/>
+                            <coord x="5997" y="32495"/>
+                            <coord x="6323" y="31789"/>
+                            <coord x="6324" y="31789"/>
+                            <coord x="6347" y="31741"/>
+                            <coord x="8496" y="27109"/>
+                            <coord x="8555" y="26902"/>
+                            <coord x="8584" y="26915"/>
+                            <coord x="11062" y="21572"/>
+                            <coord x="20446" y="25924" flags="50"/>
+                            <coord x="10882" y="27765"/>
+                            <coord x="9573" y="30688"/>
+                            <coord x="14409" y="32854"/>
+                            <coord x="15296" y="30872"/>
+                            <coord x="15297" y="30872"/>
+                            <coord x="15467" y="30493"/>
+                            <coord x="15698" y="29975"/>
+                            <coord x="15699" y="29975"/>
+                            <coord x="16730" y="27672"/>
+                            <coord x="11894" y="25506"/>
+                            <coord x="10882" y="27765" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="44"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="23">
+                            <coord x="20446" y="25924" flags="32"/>
+                            <coord x="18008" y="31180"/>
+                            <coord x="18009" y="31180"/>
+                            <coord x="15381" y="36847"/>
+                            <coord x="5997" y="32495"/>
+                            <coord x="6323" y="31789"/>
+                            <coord x="6324" y="31789"/>
+                            <coord x="6347" y="31741"/>
+                            <coord x="8496" y="27109"/>
+                            <coord x="8555" y="26902"/>
+                            <coord x="8584" y="26915"/>
+                            <coord x="11062" y="21572"/>
+                            <coord x="20446" y="25924" flags="50"/>
+                            <coord x="9573" y="30688"/>
+                            <coord x="14409" y="32854"/>
+                            <coord x="15296" y="30872"/>
+                            <coord x="15297" y="30872"/>
+                            <coord x="15467" y="30493"/>
+                            <coord x="15698" y="29975"/>
+                            <coord x="15699" y="29975"/>
+                            <coord x="16730" y="27672"/>
+                            <coord x="11894" y="25506"/>
+                            <coord x="9573" y="30688" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="44"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="22">
+                            <coord x="20446" y="25924" flags="32"/>
+                            <coord x="18008" y="31180"/>
+                            <coord x="18009" y="31180"/>
+                            <coord x="15381" y="36847"/>
+                            <coord x="5997" y="32495"/>
+                            <coord x="6323" y="31789"/>
+                            <coord x="6324" y="31789"/>
+                            <coord x="6347" y="31741"/>
+                            <coord x="8496" y="27109"/>
+                            <coord x="8555" y="26902"/>
+                            <coord x="8584" y="26915"/>
+                            <coord x="11062" y="21572"/>
+                            <coord x="20446" y="25924" flags="50"/>
+                            <coord x="9573" y="30688"/>
+                            <coord x="14409" y="32854"/>
+                            <coord x="15296" y="30872"/>
+                            <coord x="15467" y="30493"/>
+                            <coord x="15698" y="29975"/>
+                            <coord x="15699" y="29975"/>
+                            <coord x="16730" y="27672"/>
+                            <coord x="11894" y="25506"/>
+                            <coord x="9573" y="30688" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="44"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="21">
+                            <coord x="20446" y="25924" flags="32"/>
+                            <coord x="18008" y="31180"/>
+                            <coord x="18009" y="31180"/>
+                            <coord x="15381" y="36847"/>
+                            <coord x="5997" y="32495"/>
+                            <coord x="6323" y="31789"/>
+                            <coord x="6324" y="31789"/>
+                            <coord x="6347" y="31741"/>
+                            <coord x="8496" y="27109"/>
+                            <coord x="8555" y="26902"/>
+                            <coord x="8584" y="26915"/>
+                            <coord x="11062" y="21572"/>
+                            <coord x="20446" y="25924" flags="50"/>
+                            <coord x="9573" y="30688"/>
+                            <coord x="14409" y="32854"/>
+                            <coord x="15296" y="30872"/>
+                            <coord x="15698" y="29975"/>
+                            <coord x="15699" y="29975"/>
+                            <coord x="16730" y="27672"/>
+                            <coord x="11894" y="25506"/>
+                            <coord x="9573" y="30688" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="44"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="20">
+                            <coord x="20446" y="25924" flags="32"/>
+                            <coord x="18008" y="31180"/>
+                            <coord x="18009" y="31180"/>
+                            <coord x="15381" y="36847"/>
+                            <coord x="5997" y="32495"/>
+                            <coord x="6323" y="31789"/>
+                            <coord x="6324" y="31789"/>
+                            <coord x="6347" y="31741"/>
+                            <coord x="8496" y="27109"/>
+                            <coord x="8555" y="26902"/>
+                            <coord x="8584" y="26915"/>
+                            <coord x="11062" y="21572"/>
+                            <coord x="20446" y="25924" flags="50"/>
+                            <coord x="9573" y="30688"/>
+                            <coord x="14409" y="32854"/>
+                            <coord x="15296" y="30872"/>
+                            <coord x="15698" y="29975"/>
+                            <coord x="16730" y="27672"/>
+                            <coord x="11894" y="25506"/>
+                            <coord x="9573" y="30688" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="44"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="19">
+                            <coord x="20446" y="25924" flags="32"/>
+                            <coord x="18008" y="31180"/>
+                            <coord x="18009" y="31180"/>
+                            <coord x="15381" y="36847"/>
+                            <coord x="5997" y="32495"/>
+                            <coord x="6323" y="31789"/>
+                            <coord x="6324" y="31789"/>
+                            <coord x="6347" y="31741"/>
+                            <coord x="8496" y="27109"/>
+                            <coord x="8555" y="26902"/>
+                            <coord x="8584" y="26915"/>
+                            <coord x="11062" y="21572"/>
+                            <coord x="20446" y="25924" flags="50"/>
+                            <coord x="9573" y="30688"/>
+                            <coord x="14409" y="32854"/>
+                            <coord x="15296" y="30872"/>
+                            <coord x="16730" y="27672"/>
+                            <coord x="11894" y="25506"/>
+                            <coord x="9573" y="30688" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="44"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="18">
+                            <coord x="20446" y="25924" flags="32"/>
+                            <coord x="18008" y="31180"/>
+                            <coord x="18009" y="31180"/>
+                            <coord x="15381" y="36847"/>
+                            <coord x="5997" y="32495"/>
+                            <coord x="6323" y="31789"/>
+                            <coord x="6324" y="31789"/>
+                            <coord x="6347" y="31741"/>
+                            <coord x="8496" y="27109"/>
+                            <coord x="8555" y="26902"/>
+                            <coord x="8584" y="26915"/>
+                            <coord x="11062" y="21572"/>
+                            <coord x="20446" y="25924" flags="50"/>
+                            <coord x="9573" y="30688"/>
+                            <coord x="14409" y="32854"/>
+                            <coord x="16730" y="27672"/>
+                            <coord x="11894" y="25506"/>
+                            <coord x="9573" y="30688" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="44"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="17">
+                            <coord x="20446" y="25924" flags="32"/>
+                            <coord x="18008" y="31180"/>
+                            <coord x="18009" y="31180"/>
+                            <coord x="15381" y="36847"/>
+                            <coord x="5997" y="32495"/>
+                            <coord x="6323" y="31789"/>
+                            <coord x="6324" y="31789"/>
+                            <coord x="6347" y="31741"/>
+                            <coord x="8555" y="26902"/>
+                            <coord x="8584" y="26915"/>
+                            <coord x="11062" y="21572"/>
+                            <coord x="20446" y="25924" flags="50"/>
+                            <coord x="9573" y="30688"/>
+                            <coord x="14409" y="32854"/>
+                            <coord x="16730" y="27672"/>
+                            <coord x="11894" y="25506"/>
+                            <coord x="9573" y="30688" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="44"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="16">
+                            <coord x="20446" y="25924" flags="32"/>
+                            <coord x="18008" y="31180"/>
+                            <coord x="18009" y="31180"/>
+                            <coord x="15381" y="36847"/>
+                            <coord x="5997" y="32495"/>
+                            <coord x="6323" y="31789"/>
+                            <coord x="6324" y="31789"/>
+                            <coord x="6347" y="31741"/>
+                            <coord x="8584" y="26915"/>
+                            <coord x="11062" y="21572"/>
+                            <coord x="20446" y="25924" flags="50"/>
+                            <coord x="9573" y="30688"/>
+                            <coord x="14409" y="32854"/>
+                            <coord x="16730" y="27672"/>
+                            <coord x="11894" y="25506"/>
+                            <coord x="9573" y="30688" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="44"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="15">
+                            <coord x="20446" y="25924" flags="32"/>
+                            <coord x="18008" y="31180"/>
+                            <coord x="18009" y="31180"/>
+                            <coord x="15381" y="36847"/>
+                            <coord x="5997" y="32495"/>
+                            <coord x="6323" y="31789"/>
+                            <coord x="6324" y="31789"/>
+                            <coord x="6347" y="31741"/>
+                            <coord x="11062" y="21572"/>
+                            <coord x="20446" y="25924" flags="50"/>
+                            <coord x="9573" y="30688"/>
+                            <coord x="14409" y="32854"/>
+                            <coord x="16730" y="27672"/>
+                            <coord x="11894" y="25506"/>
+                            <coord x="9573" y="30688" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="44"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="111">
+                        <coords count="14">
+                            <coord x="20446" y="25924" flags="32"/>
+                            <coord x="18008" y="31180"/>
+                            <coord x="15381" y="36847"/>
+                            <coord x="5997" y="32495"/>
+                            <coord x="6323" y="31789"/>
+                            <coord x="6324" y="31789"/>
+                            <coord x="6347" y="31741"/>
+                            <coord x="11062" y="21572"/>
+                            <coord x="20446" y="25924" flags="50"/>
+                            <coord x="9573" y="30688"/>
+                            <coord x="14409" y="32854"/>
+                            <coord x="16730" y="27672"/>
+                            <coord x="11894" y="25506"/>
+                            <coord x="9573" y="30688" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="45"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="46"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="47"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="48"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="49"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="50"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="51"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="52"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="53"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="54"/>
+                </affected_objects>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="2">
+                        <affected_objects part="0">
+                            <ref object="54"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="110">
+                                <coords count="5">
+                                    <coord x="-43693" y="26101" flags="32"/>
+                                    <coord x="-34977" y="30006" flags="32"/>
+                                    <coord x="-36993" y="34505" flags="32"/>
+                                    <coord x="-45709" y="30600" flags="32"/>
+                                    <coord x="-43693" y="26101" flags="50"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="1">
+                        <affected_objects part="0">
+                            <ref object="54"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="2">
+                        <affected_objects part="0">
+                            <ref object="54"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="112">
+                                <coords count="5">
+                                    <coord x="-43693" y="26101" flags="32"/>
+                                    <coord x="-34977" y="30006" flags="32"/>
+                                    <coord x="-36993" y="34505" flags="32"/>
+                                    <coord x="-45709" y="30600" flags="32"/>
+                                    <coord x="-43693" y="26101" flags="50"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="1">
+                        <affected_objects part="0">
+                            <ref object="54"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="54"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="164">
+                        <coords count="5">
+                            <coord x="-43693" y="26101" flags="32"/>
+                            <coord x="-34977" y="30006" flags="32"/>
+                            <coord x="-36993" y="34505" flags="32"/>
+                            <coord x="-45709" y="30600" flags="32"/>
+                            <coord x="-43693" y="26101" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="54"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="164">
+                        <coords count="5">
+                            <coord x="-43693" y="26101" flags="32"/>
+                            <coord x="-34977" y="30006"/>
+                            <coord x="-36993" y="34505" flags="32"/>
+                            <coord x="-45709" y="30600" flags="32"/>
+                            <coord x="-43693" y="26101" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="54"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="164">
+                        <coords count="5">
+                            <coord x="-43693" y="26101" flags="32"/>
+                            <coord x="-34977" y="30006"/>
+                            <coord x="-36993" y="34505"/>
+                            <coord x="-45709" y="30600" flags="32"/>
+                            <coord x="-43693" y="26101" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="54"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="164">
+                        <coords count="5">
+                            <coord x="-43693" y="26101" flags="32"/>
+                            <coord x="-34977" y="30006"/>
+                            <coord x="-36993" y="34505"/>
+                            <coord x="-45709" y="30600"/>
+                            <coord x="-43693" y="26101" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="2">
+                        <affected_objects part="0">
+                            <ref object="54"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="164">
+                                <coords count="5">
+                                    <coord x="-43693" y="26101"/>
+                                    <coord x="-34977" y="30006"/>
+                                    <coord x="-36993" y="34505"/>
+                                    <coord x="-45709" y="30600"/>
+                                    <coord x="-43693" y="26101" flags="50"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="1">
+                        <affected_objects part="0">
+                            <ref object="54"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="2">
+                        <affected_objects part="0">
+                            <ref object="54"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="164">
+                                <coords count="5">
+                                    <coord x="-45280" y="29642"/>
+                                    <coord x="-43693" y="26101"/>
+                                    <coord x="-34977" y="30006"/>
+                                    <coord x="-36993" y="34505"/>
+                                    <coord x="-44722" y="31042" flags="16"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="1">
+                        <affected_objects part="0">
+                            <ref object="54"/>
+                            <ref object="55"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="56"/>
+                </affected_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="56"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="164">
+                        <coords count="5">
+                            <coord x="-36594" y="33615" flags="33"/>
+                            <coord x="-36842" y="34118"/>
+                            <coord x="-37446" y="34293"/>
+                            <coord x="-37958" y="34065" flags="32"/>
+                            <coord x="-39005" y="33599" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="0">
+                        <affected_objects part="0">
+                            <ref object="55"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="164">
+                                <coords count="2">
+                                    <coord x="-37932" y="34084"/>
+                                    <coord x="-44722" y="31042" flags="16"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="2">
+                        <affected_objects part="0">
+                            <ref object="56"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="164">
+                                <coords count="4">
+                                    <coord x="-36594" y="33615" flags="33"/>
+                                    <coord x="-36842" y="34118"/>
+                                    <coord x="-37446" y="34293"/>
+                                    <coord x="-37958" y="34065" flags="48"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="55"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="164">
+                        <coords count="5">
+                            <coord x="-36594" y="33615" flags="33"/>
+                            <coord x="-36842" y="34118"/>
+                            <coord x="-37446" y="34293"/>
+                            <coord x="-37945" y="34074"/>
+                            <coord x="-44722" y="31042" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="55"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="164">
+                        <coords count="9">
+                            <coord x="-36594" y="33615" flags="33"/>
+                            <coord x="-36842" y="34118"/>
+                            <coord x="-37446" y="34293"/>
+                            <coord x="-37945" y="34074"/>
+                            <coord x="-44722" y="31042" flags="33"/>
+                            <coord x="-45258" y="30808"/>
+                            <coord x="-45506" y="30187"/>
+                            <coord x="-45273" y="29651" flags="32"/>
+                            <coord x="-44792" y="28547" flags="48"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="0">
+                        <affected_objects part="0">
+                            <ref object="55"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="164">
+                                <coords count="8">
+                                    <coord x="-36594" y="33615" flags="33"/>
+                                    <coord x="-36842" y="34118"/>
+                                    <coord x="-37446" y="34293"/>
+                                    <coord x="-37945" y="34074"/>
+                                    <coord x="-44722" y="31042" flags="33"/>
+                                    <coord x="-45258" y="30808"/>
+                                    <coord x="-45506" y="30187"/>
+                                    <coord x="-45273" y="29651" flags="48"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="2">
+                        <affected_objects part="0">
+                            <ref object="54"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="164">
+                                <coords count="4">
+                                    <coord x="-45280" y="29642"/>
+                                    <coord x="-43693" y="26101"/>
+                                    <coord x="-34977" y="30006"/>
+                                    <coord x="-36612" y="33656" flags="16"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="54"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="164">
+                        <coords count="11">
+                            <coord x="-36603" y="33635" flags="33"/>
+                            <coord x="-36842" y="34118"/>
+                            <coord x="-37446" y="34293"/>
+                            <coord x="-37945" y="34074"/>
+                            <coord x="-44722" y="31042" flags="33"/>
+                            <coord x="-45258" y="30808"/>
+                            <coord x="-45506" y="30187"/>
+                            <coord x="-45276" y="29646"/>
+                            <coord x="-43693" y="26101"/>
+                            <coord x="-34977" y="30006"/>
+                            <coord x="-36603" y="33635" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="3">
+                <affected_objects part="0">
+                    <ref object="54"/>
+                </affected_objects>
+                <switch_symbol count="1">
+                    <ref symbol="164"/>
+                </switch_symbol>
+            </step>
+        </undo>
         <redo/>
     </barrier>
 </map>
