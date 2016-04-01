@@ -273,7 +273,7 @@
         </color>
     </colors>
     <barrier version="6" required="0.6.0">
-        <symbols count="170">
+        <symbols count="163">
             <symbol type="2" id="0" code="101" name="Contour">
                 <description>A line joining points of equal height. The standard vertical interval between contours is 2 or 2.5 m. To emphasize the 3-dimensional effect of the contour line image, contour lines shall be represented as continuous lines through all symbols, also building (526.1) and canopy (526.2). However, contour lines shall be cut out for better legibility, if they touch the following symbols: small earth wall (108.1), small knoll (112), small elongated knoll (113), small depression (115), pit or hole (116), prominent landform feature (118), step or edge of paved area (529.1). 
 
@@ -1432,43 +1432,19 @@ Colour: black, brown 0%(white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (mi
                     </borders>
                 </line_symbol>
             </symbol>
-            <symbol type="2" id="90" code="506.1.3" name="Unpaved footpath or track, non-urban, minimum width">
-                <description>An unpaved footpath or rough vehicle track is a way for passing mainly by foot, without a smooth, hard surface. The density of the brown fill-in shall be the same as the density chosen for the symbol (529).
-
-To improve the legibility of this symbol in non-urban parts of the map, the line width shall, in the non-urban parts of the map, be increased from 0.07 mm to 0.14 mm, and the brown fill-in shall, in the non-urban parts of the map, be drawn darker, so that if (x)% brown is used in urban parts of the map, (x+20)% brown shall be used in the non-urban parts of the map.
-
-Colour: black, brown 0%(white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (min.60lines/cm) (non-urban); the colour and the line width shall be the same as for the symbols paved area (529) and step or edge of paved areas (529.1).</description>
-                <line_symbol color="13" line_width="350" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2000" break_length="250" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <borders>
-                        <border color="15" width="140" shift="70" dashed="true" dash_length="2000" break_length="250"/>
-                    </borders>
-                </line_symbol>
-            </symbol>
-            <symbol type="2" id="91" code="506.1.4" name="Unpaved footpath or track, non-urban, 0.55mm width">
-                <description>An unpaved footpath or rough vehicle track is a way for passing mainly by foot, without a smooth, hard surface. The density of the brown fill-in shall be the same as the density chosen for the symbol (529).
-
-To improve the legibility of this symbol in non-urban parts of the map, the line width shall, in the non-urban parts of the map, be increased from 0.07 mm to 0.14 mm, and the brown fill-in shall, in the non-urban parts of the map, be drawn darker, so that if (x)% brown is used in urban parts of the map, (x+20)% brown shall be used in the non-urban parts of the map.
-
-Colour: black, brown 0%(white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (min.60lines/cm) (non-urban); the colour and the line width shall be the same as for the symbols paved area (529) and step or edge of paved areas (529.1).</description>
-                <line_symbol color="13" line_width="550" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2000" break_length="250" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <borders>
-                        <border color="15" width="140" shift="70" dashed="true" dash_length="2000" break_length="250"/>
-                    </borders>
-                </line_symbol>
-            </symbol>
-            <symbol type="2" id="92" code="507" name="Small unpaved footpath or track">
+            <symbol type="2" id="90" code="507" name="Small unpaved footpath or track">
                 <description>A small unpaved footpath or track. Not to be used in urban areas.</description>
                 <line_symbol color="2" line_width="180" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="1000" break_length="250" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="2" id="93" code="508" name="Less distinct small path">
+            <symbol type="2" id="91" code="508" name="Less distinct small path">
                 <description>Aless distinct path or forestry extraction track. Not to be used in urban areas.</description>
                 <line_symbol color="2" line_width="180" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="1000" break_length="1000" dashes_in_group="2" in_group_break_length="250" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="2" id="94" code="509" name="Narrow ride">
+            <symbol type="2" id="92" code="509" name="Narrow ride">
                 <description>A distinct ride is a linear break in the forest (usually in a plantation), which does not have a distinct path along it. Where there is a path along a ride, the symbol small unpaved footpath or track (506.1) shall be used. Not to be used in urban areas.</description>
                 <line_symbol color="2" line_width="140" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="3000" break_length="500" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="2" id="95" code="512.1.1" name="Bridge, minimum width">
+            <symbol type="2" id="93" code="512.1.1" name="Bridge, minimum width">
                 <description>A bridge is a structure spanning and permitting passage over a river, chasm, road or the like.</description>
                 <line_symbol color="-1" line_width="400" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
                     <start_symbol>
@@ -1544,7 +1520,7 @@ Colour: black, brown 0%(white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (mi
                     </borders>
                 </line_symbol>
             </symbol>
-            <symbol type="2" id="96" code="512.1.2" name="Bridge, one side">
+            <symbol type="2" id="94" code="512.1.2" name="Bridge, one side">
                 <description>A bridge is a structure spanning and permitting passage over a river, chasm, road or the like.</description>
                 <line_symbol color="2" line_width="250" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
                     <start_symbol>
@@ -1589,7 +1565,7 @@ Colour: black, brown 0%(white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (mi
                     </end_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="16" id="97" code="515.1" name="Railway">
+            <symbol type="16" id="95" code="515.1" name="Railway">
                 <description>A railway is a permanent track laid with rails on which locomotives, carriages or wagons can travel. If it is forbidden to cross or run along the railroad, the forbidden area around the railway shall be represented with symbol area with forbidden access (528.1).</description>
                 <combined_symbol parts="2">
                     <part private="true">
@@ -1608,7 +1584,7 @@ Colour: black, brown 0%(white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (mi
                     </part>
                 </combined_symbol>
             </symbol>
-            <symbol type="2" id="98" code="515.2" name="Tramway">
+            <symbol type="2" id="96" code="515.2" name="Tramway">
                 <description>A tramway is a public vehicle running regularly along certain streets, usually on rails. The track can be easily crossed by the competitor. Tramways are generally not represented. However, if they serve navigation or orientation, they can be represented.</description>
                 <line_symbol color="-1" line_width="300" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="3000" end_length="1500" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="1500" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
                     <borders>
@@ -1616,7 +1592,7 @@ Colour: black, brown 0%(white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (mi
                     </borders>
                 </line_symbol>
             </symbol>
-            <symbol type="2" id="99" code="516" name="Power line, cableway or skilift">
+            <symbol type="2" id="97" code="516" name="Power line, cableway or skilift">
                 <description>Power line, cableway or skilift. The bars indicate the exact location of the pylons.
 
 &lt;b&gt;Note: When drawing this symbol, press space to toggle placing the pylon symbols at new nodes.&lt;/b&gt;</description>
@@ -1643,7 +1619,7 @@ Colour: black, brown 0%(white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (mi
                     </dash_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="2" id="100" code="517" name="Major power line">
+            <symbol type="2" id="98" code="517" name="Major power line">
                 <description>Major power lines should be drawn with a double line. The gap between the lines may indicate the extent of the powerline.
 
 Very large carrying masts shall be represented in plan shape or with the symbol high tower (535). In this case, the cable lines can be left out (the map shows only the pylons).
@@ -1675,7 +1651,7 @@ Very large carrying masts shall be represented in plan shape or with the symbol 
                     </borders>
                 </line_symbol>
             </symbol>
-            <symbol type="2" id="101" code="518.1" name="Underpass or tunnel">
+            <symbol type="2" id="99" code="518.1" name="Underpass or tunnel">
                 <description>An underpass or a tunnel is a passage running underneath the ground, especially a passage for pedestrians or vehicles, crossing under for instance a railroad or a road.
 
 &lt;span style=&quot;color: magenta&quot;&gt;If underpasses or tunnels etc. are to be used in a competition, they shall be emphasized with the symbol crossing point (708) or crossing section (708.1)!&lt;/span&gt;</description>
@@ -1704,7 +1680,7 @@ Very large carrying masts shall be represented in plan shape or with the symbol 
                     </mid_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="2" id="102" code="519" name="Passable stone wall">
+            <symbol type="2" id="100" code="519" name="Passable stone wall">
                 <description>A stone wall or stone faced bank. This symbol shall be used only in non-urban areas. If such a wall is higher than 2 m, it shall be represented with the symbol impassable wall (521.1).</description>
                 <line_symbol color="2" line_width="210" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="3750" end_length="1875" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
                     <mid_symbol>
@@ -1714,29 +1690,29 @@ Very large carrying masts shall be represented in plan shape or with the symbol 
                     </mid_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="2" id="103" code="519.1.1" name="Passable wall">
+            <symbol type="2" id="101" code="519.1.1" name="Passable wall">
                 <description>A passable wall or retaining wall is a construction made of stone, brick, concrete etc., which can be passed. This symbol is suitable for urban areas. If such a wall is higher than 2 m, it shall be represented with the symbol impassable wall (521.1). Wide walls shall be drawn in plan shape.</description>
                 <line_symbol color="6" line_width="350" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="4" id="104" code="519.1.2" name="Passable wall, plan shape">
+            <symbol type="4" id="102" code="519.1.2" name="Passable wall, plan shape">
                 <description>A passable wall or retaining wall is a construction made of stone, brick, concrete etc., which can be passed. This symbol is suitable for urban areas. If such a wall is higher than 2 m, it shall be represented with the symbol (521.1). Wide walls shall be drawn in plan shape.</description>
                 <area_symbol inner_color="6" min_area="500" patterns="0"/>
             </symbol>
-            <symbol type="2" id="105" code="521.1.1" name="Impassable wall &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to cross)&lt;/span&gt;">
+            <symbol type="2" id="103" code="521.1.1" name="Impassable wall &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to cross)&lt;/span&gt;">
                 <description>An impassable wall or retaining wall is a wall, which fulfil the function of an enclosure or solid barrier. It shall not be crossed, due to forbidden access or because it may constitute a danger to the competitor due to its height. Very wide impassable walls shall be drawn in plan shape and represented with the symbol building (526.1).
 
 &lt;span style=&quot;color:magenta&quot;&gt;It is forbidden to cross an impassable wall!
 Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                 <line_symbol color="2" line_width="400" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="4" id="106" code="521.1.2" name="Impassable wall, plan shape &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to cross)&lt;/span&gt;">
+            <symbol type="4" id="104" code="521.1.2" name="Impassable wall, plan shape &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to cross)&lt;/span&gt;">
                 <description>An impassable wall or retaining wall is a wall, which fulfil the function of an enclosure or solid barrier. It shall not be crossed, due to forbidden access or because it may constitute a danger to the competitor due to its height. Very wide impassable walls shall be drawn in plan shape and represented with the symbol building (526.1).
 
 &lt;span style=&quot;color:magenta&quot;&gt;It is forbidden to cross an impassable wall!
 Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                 <area_symbol inner_color="2" min_area="500" patterns="0"/>
             </symbol>
-            <symbol type="2" id="107" code="522" name="Passable fence or railing">
+            <symbol type="2" id="105" code="522" name="Passable fence or railing">
                 <description>A passable fence is a barrier enclosing or bordering a field, yard, etc., usually made of posts and wire or wood. It is used to prevent entrance or to confine or mark a boundary. A railing is a fencelike barrier composed of one or more horizontal rails supported by widely spaced upright poles, usually it can be slipped through.
 
 If a fence or railing is higher than 2 m or very difficult to cross, it shall be represented with the symbol impassable fence or railing (524).</description>
@@ -1763,7 +1739,7 @@ If a fence or railing is higher than 2 m or very difficult to cross, it shall be
                     </mid_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="2" id="108" code="524" name="Impassable fence or railing &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to cross)&lt;/span&gt;">
+            <symbol type="2" id="106" code="524" name="Impassable fence or railing &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to cross)&lt;/span&gt;">
                 <description>An impassable fence or railing, which shall not be crossed, due to forbidden access or because it may constitute a danger to the competitor because of its height.
 
 &lt;span style=&quot;color:magenta&quot;&gt;It is forbidden to cross an impassable fence or railing!
@@ -1805,7 +1781,7 @@ Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                     </mid_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="1" id="109" code="525" name="Crossing point">
+            <symbol type="1" id="107" code="525" name="Crossing point">
                 <description>A crossing point is a gap or an opening in a fence, railing or wall, which can easily be crossed by a competitor.  Small gaps or openings which can not easily be crossed by competitors, shall not be represented on the map and shall be closed during the competition.</description>
                 <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
                     <element>
@@ -1838,7 +1814,7 @@ Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="16" id="110" code="526.1" name="Building &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to pass through or over)&lt;/span&gt;">
+            <symbol type="16" id="108" code="526.1" name="Building &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to pass through or over)&lt;/span&gt;">
                 <description>A building is a relatively permanent construction having a roof. Buildings within symbol area with forbidden access (527.1) may just be represented in a simplified manner.Areas totally contained within a building shall be mapped as being a part of the building. 
 
 The minimum gap between buildings and between buildings and other impassable features shall be 0.40 mm. The black screen percentage should be chosen according to the terrain. A dark screen gives a better contrast to passable areas, such as streets, stairways and canopies, while a light screen makes contours and course overprint more clearly visible (which can be important in very densely built up urban terrain and in steep urban terrain). The black screen shall be the same for the whole map. 
@@ -1846,15 +1822,15 @@ The minimum gap between buildings and between buildings and other impassable fea
 &lt;span style=&quot;color:magenta&quot;&gt;It is forbidden to pass through or over a building! 
 Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                 <combined_symbol parts="2">
-                    <part symbol="111"/>
-                    <part symbol="112"/>
+                    <part symbol="109"/>
+                    <part symbol="110"/>
                 </combined_symbol>
             </symbol>
-            <symbol type="4" id="111" code="526.1.1" name="Building helper 1">
+            <symbol type="4" id="109" code="526.1.1" name="Building helper 1">
                 <description>Do not use this symbol on its own!</description>
                 <area_symbol inner_color="5" min_area="250" patterns="0"/>
             </symbol>
-            <symbol type="2" id="112" code="526.1.2" name="Building helper 2">
+            <symbol type="2" id="110" code="526.1.2" name="Building helper 2">
                 <description>Do not use this symbol on its own!</description>
                 <line_symbol color="2" line_width="140" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
                     <start_symbol>
@@ -1879,7 +1855,7 @@ Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                     </dash_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="1" id="113" code="526.1.3" name="Building, minimum size &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to pass through or over)&lt;/span&gt;">
+            <symbol type="1" id="111" code="526.1.3" name="Building, minimum size &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to pass through or over)&lt;/span&gt;">
                 <description>A building is a relatively permanent construction having a roof. Buildings within symbol area with forbidden access (527.1) may just be represented in a simplified manner.Areas totally contained within a building shall be mapped as being a part of the building. 
 
 The minimum gap between buildings and between buildings and other impassable features shall be 0.40 mm. The black screen percentage should be chosen according to the terrain. A dark screen gives a better contrast to passable areas, such as streets, stairways and canopies, while a light screen makes contours and course overprint more clearly visible (which can be important in very densely built up urban terrain and in steep urban terrain). The black screen shall be the same for the whole map. 
@@ -1922,24 +1898,24 @@ Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="16" id="114" code="526.2" name="Canopy">
+            <symbol type="16" id="112" code="526.2" name="Canopy">
                 <description>A canopy is a building construction (with a roof), normally supported by pillars, poles or walls, such as passages, gangways, courts, bus stops, gas stations or garages. 
 
 Small passable parts of buildings which can not easily be crossed by competitors, shall not be represented on the map and shall be closed during the competition.</description>
                 <combined_symbol parts="2">
-                    <part symbol="115"/>
-                    <part symbol="116"/>
+                    <part symbol="113"/>
+                    <part symbol="114"/>
                 </combined_symbol>
             </symbol>
-            <symbol type="4" id="115" code="526.2.1" name="Canopy helper 1">
+            <symbol type="4" id="113" code="526.2.1" name="Canopy helper 1">
                 <description>Do not use this symbol on its own!</description>
                 <area_symbol inner_color="8" min_area="250" patterns="0"/>
             </symbol>
-            <symbol type="2" id="116" code="526.2.2" name="Canopy helper 2">
+            <symbol type="2" id="114" code="526.2.2" name="Canopy helper 2">
                 <description>Do not use this symbol on its own!</description>
                 <line_symbol color="2" line_width="70" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="1" id="117" code="526.3" name="Pillar">
+            <symbol type="1" id="115" code="526.3" name="Pillar">
                 <description>A pillar is an upright shaft or structure of stone, brick or other material, relatively slender in proportion to its height and any shape in section, used as a building support. Pillars smaller than 2 m × 2 m are generally not represented.
 
 Columns of pillars and pillars along buildings are not represented. However, if they are important for navigation and orientation, they can be represented.</description>
@@ -1963,7 +1939,7 @@ Columns of pillars and pillars along buildings are not represented. However, if 
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="4" id="118" code="528.1" name="Area with forbidden access &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to cross)&lt;/span&gt;">
+            <symbol type="4" id="116" code="528.1" name="Area with forbidden access &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to cross)&lt;/span&gt;">
                 <description>An area with forbidden access such as a private area, a flower bed, a railway area etc. No feature shall be represented in this area, except very prominent features such as railways, large buildings, or very large trees. Road entrances shall be represented clearly.
 
 Areas with forbidden access totally contained within buildings shall be mapped as being a part of the building.
@@ -1972,7 +1948,7 @@ Areas with forbidden access totally contained within buildings shall be mapped a
 Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                 <area_symbol inner_color="24" min_area="500" patterns="0"/>
             </symbol>
-            <symbol type="4" id="119" code="529.0.1" name="Paved area, urban">
+            <symbol type="4" id="117" code="529.0.1" name="Paved area, urban">
                 <description>A paved area is an area with a firm level surfaces such as asphalt, hard gravel, tiles, concrete or the like. It shall be bordered (or framed) by the symbol step or edge of paved area (529.1). Distinct differences within the paved area can be represented with the symbol step or edge of paved area (529.1), if they serve navigation.
 
 Where a paved road, footpath or track goes through a non-urban area, the brown fill-in shall be drawn darker, so that if (x)% brown is used in urban areas, (x+20)% brown shall be used in the non-urban areas, and the line width of the black outline shall be increased from 0.07 to 0.14 mm. The black border line can be omitted where it is logical (e.g. indistinct/gradual gravel-to-grass transitions).
@@ -1980,18 +1956,18 @@ Where a paved road, footpath or track goes through a non-urban area, the brown f
 Colour: black, brown 0%(white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (min.60lines/cm) (non-urban); the colour and the line width shall be the same as for the symbol unpaved footpath or track (506.1).</description>
                 <area_symbol inner_color="14" min_area="500" patterns="0"/>
             </symbol>
-            <symbol type="16" id="120" code="529.0.2" name="Paved area with border, urban">
+            <symbol type="16" id="118" code="529.0.2" name="Paved area with border, urban">
                 <description>A paved area is an area with a firm level surfaces such as asphalt, hard gravel, tiles, concrete or the like. It shall be bordered (or framed) by the symbol step or edge of paved area (529.1). Distinct differences within the paved area can be represented with the symbol step or edge of paved area (529.1), if they serve navigation.
 
 Where a paved road, footpath or track goes through a non-urban area, the brown fill-in shall be drawn darker, so that if (x)% brown is used in urban areas, (x+20)% brown shall be used in the non-urban areas, and the line width of the black outline shall be increased from 0.07 to 0.14 mm. The black border line can be omitted where it is logical (e.g. indistinct/gradual gravel-to-grass transitions).
 
 Colour: brown 0 (white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (non-urban) (min. 60 lines/cm), black; the colour and the line width shall be the same as for symbol unpaved footpath or track (506.1).</description>
                 <combined_symbol parts="2">
-                    <part symbol="119"/>
-                    <part symbol="131"/>
+                    <part symbol="117"/>
+                    <part symbol="125"/>
                 </combined_symbol>
             </symbol>
-            <symbol type="2" id="121" code="529.0.3" name="Paved road, footpath or track, urban, 0.35mm width">
+            <symbol type="2" id="119" code="529.0.3" name="Paved road, footpath or track, urban, 0.35mm width">
                 <description>A paved area is an area with a firm level surfaces such as asphalt, hard gravel, tiles, concrete or the like. It shall be bordered (or framed) by the symbol step or edge of paved area (529.1). Distinct differences within the paved area can be represented with the symbol step or edge of paved area (529.1), if they serve navigation.
 
 Where a paved road, footpath or track goes through a non-urban area, the brown fill-in shall be drawn darker, so that if (x)% brown is used in urban areas, (x+20)% brown shall be used in the non-urban areas, and the line width of the black outline shall be increased from 0.07 to 0.14 mm. The black border line can be omitted where it is logical (e.g. indistinct/gradual gravel-to-grass transitions).
@@ -2003,7 +1979,7 @@ Colour: brown 0 (white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (non-urban
                     </borders>
                 </line_symbol>
             </symbol>
-            <symbol type="2" id="122" code="529.0.4" name="Paved road, footpath or track, urban, 0.55mm width">
+            <symbol type="2" id="120" code="529.0.4" name="Paved road, footpath or track, urban, 0.55mm width">
                 <description>A paved area is an area with a firm level surfaces such as asphalt, hard gravel, tiles, concrete or the like. It shall be bordered (or framed) by the symbol step or edge of paved area (529.1). Distinct differences within the paved area can be represented with the symbol step or edge of paved area (529.1), if they serve navigation.
 
 Where a paved road, footpath or track goes through a non-urban area, the brown fill-in shall be drawn darker, so that if (x)% brown is used in urban areas, (x+20)% brown shall be used in the non-urban areas, and the line width of the black outline shall be increased from 0.07 to 0.14 mm. The black border line can be omitted where it is logical (e.g. indistinct/gradual gravel-to-grass transitions).
@@ -2015,7 +1991,7 @@ Colour: brown 0 (white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (non-urban
                     </borders>
                 </line_symbol>
             </symbol>
-            <symbol type="2" id="123" code="529.0.5" name="Paved road, footpath or track, urban, 0.7mm width">
+            <symbol type="2" id="121" code="529.0.5" name="Paved road, footpath or track, urban, 0.7mm width">
                 <description>A paved area is an area with a firm level surfaces such as asphalt, hard gravel, tiles, concrete or the like. It shall be bordered (or framed) by the symbol step or edge of paved area (529.1). Distinct differences within the paved area can be represented with the symbol step or edge of paved area (529.1), if they serve navigation.
 
 Where a paved road, footpath or track goes through a non-urban area, the brown fill-in shall be drawn darker, so that if (x)% brown is used in urban areas, (x+20)% brown shall be used in the non-urban areas, and the line width of the black outline shall be increased from 0.07 to 0.14 mm. The black border line can be omitted where it is logical (e.g. indistinct/gradual gravel-to-grass transitions).
@@ -2027,7 +2003,7 @@ Colour: brown 0 (white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (non-urban
                     </borders>
                 </line_symbol>
             </symbol>
-            <symbol type="2" id="124" code="529.0.6" name="Paved road, footpath or track, urban, 0.9mm width">
+            <symbol type="2" id="122" code="529.0.6" name="Paved road, footpath or track, urban, 0.9mm width">
                 <description>A paved area is an area with a firm level surfaces such as asphalt, hard gravel, tiles, concrete or the like. It shall be bordered (or framed) by the symbol step or edge of paved area (529.1). Distinct differences within the paved area can be represented with the symbol step or edge of paved area (529.1), if they serve navigation.
 
 Where a paved road, footpath or track goes through a non-urban area, the brown fill-in shall be drawn darker, so that if (x)% brown is used in urban areas, (x+20)% brown shall be used in the non-urban areas, and the line width of the black outline shall be increased from 0.07 to 0.14 mm. The black border line can be omitted where it is logical (e.g. indistinct/gradual gravel-to-grass transitions).
@@ -2039,7 +2015,7 @@ Colour: brown 0 (white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (non-urban
                     </borders>
                 </line_symbol>
             </symbol>
-            <symbol type="4" id="125" code="529.0.7" name="Paved area, non-urban">
+            <symbol type="4" id="123" code="529.0.7" name="Paved area, non-urban">
                 <description>A paved area is an area with a firm level surfaces such as asphalt, hard gravel, tiles, concrete or the like. It shall be bordered (or framed) by the symbol step or edge of paved area (529.1). Distinct differences within the paved area can be represented with the symbol step or edge of paved area (529.1), if they serve navigation.
 
 Where a paved road, footpath or track goes through a non-urban area, the brown fill-in shall be drawn darker, so that if (x)% brown is used in urban areas, (x+20)% brown shall be used in the non-urban areas, and the line width of the black outline shall be increased from 0.07 to 0.14 mm. The black border line can be omitted where it is logical (e.g. indistinct/gradual gravel-to-grass transitions).
@@ -2047,74 +2023,22 @@ Where a paved road, footpath or track goes through a non-urban area, the brown f
 Colour: brown 0 (white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (non-urban) (min. 60 lines/cm), black; the colour and the line width shall be the same as for symbol unpaved footpath or track (506.1).</description>
                 <area_symbol inner_color="13" min_area="500" patterns="0"/>
             </symbol>
-            <symbol type="16" id="126" code="529.0.8" name="Paved area with border, non-urban">
+            <symbol type="16" id="124" code="529.0.8" name="Paved area with border, non-urban">
                 <description>A paved area is an area with a firm level surfaces such as asphalt, hard gravel, tiles, concrete or the like. It shall be bordered (or framed) by the symbol step or edge of paved area (529.1). Distinct differences within the paved area can be represented with the symbol step or edge of paved area (529.1), if they serve navigation.
 
 Where a paved road, footpath or track goes through a non-urban area, the brown fill-in shall be drawn darker, so that if (x)% brown is used in urban areas, (x+20)% brown shall be used in the non-urban areas, and the line width of the black outline shall be increased from 0.07 to 0.14 mm. The black border line can be omitted where it is logical (e.g. indistinct/gradual gravel-to-grass transitions).
 
 Colour: brown 0 (white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (non-urban) (min. 60 lines/cm), black; the colour and the line width shall be the same as for symbol unpaved footpath or track (506.1).</description>
                 <combined_symbol parts="2">
-                    <part symbol="125"/>
-                    <part symbol="132"/>
+                    <part symbol="123"/>
+                    <part symbol="-1"/>
                 </combined_symbol>
             </symbol>
-            <symbol type="2" id="127" code="529.0.9" name="Paved road, footpath or track, non-urban, 0.35mm width">
-                <description>A paved area is an area with a firm level surfaces such as asphalt, hard gravel, tiles, concrete or the like. It shall be bordered (or framed) by the symbol step or edge of paved area (529.1). Distinct differences within the paved area can be represented with the symbol step or edge of paved area (529.1), if they serve navigation.
-
-Where a paved road, footpath or track goes through a non-urban area, the brown fill-in shall be drawn darker, so that if (x)% brown is used in urban areas, (x+20)% brown shall be used in the non-urban areas, and the line width of the black outline shall be increased from 0.07 to 0.14 mm. The black border line can be omitted where it is logical (e.g. indistinct/gradual gravel-to-grass transitions).
-
-Colour: brown 0 (white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (non-urban) (min. 60 lines/cm), black; the colour and the line width shall be the same as for symbol unpaved footpath or track (506.1).</description>
-                <line_symbol color="13" line_width="350" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2000" break_length="250" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <borders>
-                        <border color="15" width="140" shift="70" dash_length="2000" break_length="250"/>
-                    </borders>
-                </line_symbol>
-            </symbol>
-            <symbol type="2" id="128" code="529.0.10" name="Paved road, footpath or track, non-urban, 0.55mm width">
-                <description>A paved area is an area with a firm level surfaces such as asphalt, hard gravel, tiles, concrete or the like. It shall be bordered (or framed) by the symbol step or edge of paved area (529.1). Distinct differences within the paved area can be represented with the symbol step or edge of paved area (529.1), if they serve navigation.
-
-Where a paved road, footpath or track goes through a non-urban area, the brown fill-in shall be drawn darker, so that if (x)% brown is used in urban areas, (x+20)% brown shall be used in the non-urban areas, and the line width of the black outline shall be increased from 0.07 to 0.14 mm. The black border line can be omitted where it is logical (e.g. indistinct/gradual gravel-to-grass transitions).
-
-Colour: brown 0 (white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (non-urban) (min. 60 lines/cm), black; the colour and the line width shall be the same as for symbol unpaved footpath or track (506.1).</description>
-                <line_symbol color="13" line_width="550" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2000" break_length="250" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <borders>
-                        <border color="15" width="140" shift="70" dash_length="2000" break_length="250"/>
-                    </borders>
-                </line_symbol>
-            </symbol>
-            <symbol type="2" id="129" code="529.0.11" name="Paved road, footpath or track, non-urban, 0.7mm width">
-                <description>A paved area is an area with a firm level surfaces such as asphalt, hard gravel, tiles, concrete or the like. It shall be bordered (or framed) by the symbol step or edge of paved area (529.1). Distinct differences within the paved area can be represented with the symbol step or edge of paved area (529.1), if they serve navigation.
-
-Where a paved road, footpath or track goes through a non-urban area, the brown fill-in shall be drawn darker, so that if (x)% brown is used in urban areas, (x+20)% brown shall be used in the non-urban areas, and the line width of the black outline shall be increased from 0.07 to 0.14 mm. The black border line can be omitted where it is logical (e.g. indistinct/gradual gravel-to-grass transitions).
-
-Colour: brown 0 (white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (non-urban) (min. 60 lines/cm), black; the colour and the line width shall be the same as for symbol unpaved footpath or track (506.1).</description>
-                <line_symbol color="13" line_width="700" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2000" break_length="250" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <borders>
-                        <border color="15" width="140" shift="70" dash_length="2000" break_length="250"/>
-                    </borders>
-                </line_symbol>
-            </symbol>
-            <symbol type="2" id="130" code="529.0.12" name="Paved road, footpath or track, non-urban, 0.9mm width">
-                <description>A paved area is an area with a firm level surfaces such as asphalt, hard gravel, tiles, concrete or the like. It shall be bordered (or framed) by the symbol step or edge of paved area (529.1). Distinct differences within the paved area can be represented with the symbol step or edge of paved area (529.1), if they serve navigation.
-
-Where a paved road, footpath or track goes through a non-urban area, the brown fill-in shall be drawn darker, so that if (x)% brown is used in urban areas, (x+20)% brown shall be used in the non-urban areas, and the line width of the black outline shall be increased from 0.07 to 0.14 mm. The black border line can be omitted where it is logical (e.g. indistinct/gradual gravel-to-grass transitions).
-
-Colour: brown 0 (white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (non-urban) (min. 60 lines/cm), black; the colour and the line width shall be the same as for symbol unpaved footpath or track (506.1).</description>
-                <line_symbol color="13" line_width="900" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2000" break_length="250" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <borders>
-                        <border color="15" width="140" shift="70" dash_length="2000" break_length="250"/>
-                    </borders>
-                </line_symbol>
-            </symbol>
-            <symbol type="2" id="131" code="529.1.1" name="Step or edge of paved area, urban">
+            <symbol type="2" id="125" code="529.1.1" name="Step or edge of paved area, urban">
                 <description>A step or an edge of a paved area. Steps of a stairway shall be represented in a generalized manner. Edges within paved areas are generally not represented, unless they serve navigation. The thickness of edge of paved areas shall be enlarged to 0.14 mm in non-urban areas to improve legibility. The thickness of step lines shall always be 0.07 mm.</description>
                 <line_symbol color="2" line_width="70" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="2" id="132" code="529.1.2" name="Step or edge of paved area, non-urban">
-                <description>A step or an edge of a paved area. Steps of a stairway shall be represented in a generalized manner. Edges within paved areas are generally not represented, unless they serve navigation. The thickness of edge of paved areas shall be enlarged to 0.14 mm in non-urban areas to improve legibility. The thickness of step lines shall always be 0.07 mm.</description>
-                <line_symbol color="2" line_width="140" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
-            </symbol>
-            <symbol type="2" id="133" code="529.1.3" name="Step or edge of paved area, narrow stairway">
+            <symbol type="2" id="126" code="529.1.3" name="Step or edge of paved area, narrow stairway">
                 <description>A step or an edge of a paved area. Steps of a stairway shall be represented in a generalized manner. Edges within paved areas are generally not represented, unless they serve navigation. The thickness of edge of paved areas shall be enlarged to 0.14 mm in non-urban areas to improve legibility. The thickness of step lines shall always be 0.07 mm.</description>
                 <line_symbol color="2" line_width="0" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="420" end_length="35" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
                     <mid_symbol>
@@ -2139,7 +2063,7 @@ Colour: brown 0 (white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (non-urban
                     </mid_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="2" id="134" code="529.1.4" name="Step or edge of paved area, wide stairway">
+            <symbol type="2" id="127" code="529.1.4" name="Step or edge of paved area, wide stairway">
                 <description>A step or an edge of a paved area. Steps of a stairway shall be represented in a generalized manner. Edges within paved areas are generally not represented, unless they serve navigation. The thickness of edge of paved areas shall be enlarged to 0.14 mm in non-urban areas to improve legibility. The thickness of step lines shall always be 0.07 mm.</description>
                 <line_symbol color="2" line_width="0" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="420" end_length="35" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
                     <mid_symbol>
@@ -2164,7 +2088,7 @@ Colour: brown 0 (white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (non-urban
                     </mid_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="2" id="135" code="533" name="Passable pipeline">
+            <symbol type="2" id="128" code="533" name="Passable pipeline">
                 <description>A pipeline (gas, water, oil, etc.) above ground level which can be crossed over or under.</description>
                 <line_symbol color="2" line_width="210" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="3750" end_length="1875" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
                     <mid_symbol>
@@ -2190,7 +2114,7 @@ Colour: brown 0 (white), 10%, 20% or 30% (urban) / 20%, 30%, 40%, 50% (non-urban
                     </mid_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="2" id="136" code="534" name="Impassable pipeline &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to cross)&lt;/span&gt;">
+            <symbol type="2" id="129" code="534" name="Impassable pipeline &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to cross)&lt;/span&gt;">
                 <description>An impassable pipeline (gas, water, oil, etc.) above ground level which shall not be crossed, due to forbidden access or because it may constitute a danger to the competitor because of its height.
 
 &lt;span style=&quot;color:magenta&quot;&gt;It is forbidden to cross an impassable pipeline!
@@ -2219,7 +2143,7 @@ Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                     </mid_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="1" id="137" code="535" name="High tower">
+            <symbol type="1" id="130" code="535" name="High tower">
                 <description>A high tower or large pylon. Very large towers shall be represented in plan shape with the symbol building (526.1). The symbol is orientated to north.</description>
                 <point_symbol inner_radius="600" inner_color="2" outer_width="0" outer_color="-1" elements="2">
                     <element>
@@ -2252,7 +2176,7 @@ Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="1" id="138" code="536" name="Small tower">
+            <symbol type="1" id="131" code="536" name="Small tower">
                 <description>An obvious small tower, platform or seat . The symbol is orientated to north.</description>
                 <point_symbol inner_radius="600" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
                     <element>
@@ -2285,7 +2209,7 @@ Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="1" id="139" code="537" name="Cairn, memorial, small monument or boundary stone">
+            <symbol type="1" id="132" code="537" name="Cairn, memorial, small monument or boundary stone">
                 <description>Cairn, memorial, small monument or boundary stone more than 0.5 m high.  Large massive monuments shall be represented in plan shape with the symbol building (526.1).</description>
                 <point_symbol inner_radius="380" inner_color="-1" outer_width="220" outer_color="2" elements="1">
                     <element>
@@ -2300,7 +2224,7 @@ Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="1" id="140" code="538" name="Fodder rack">
+            <symbol type="1" id="133" code="538" name="Fodder rack">
                 <description>A fodder rack, which is free standing or attached to a tree. The symbol is orientated to north.</description>
                 <point_symbol inner_radius="600" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
                     <element>
@@ -2334,11 +2258,11 @@ Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="1" id="141" code="539" name="Prominent man-made feature">
+            <symbol type="1" id="134" code="539" name="Prominent man-made feature">
                 <description>A man-made feature which is significant or prominent. The definition of the symbol shall always be given in the map legend.</description>
                 <point_symbol inner_radius="380" inner_color="-1" outer_width="220" outer_color="2" elements="0"/>
             </symbol>
-            <symbol type="1" id="142" code="540" name="Prominent man-made feature">
+            <symbol type="1" id="135" code="540" name="Prominent man-made feature">
                 <description>A man-made feature which is significant or prominent. The definition of the symbol shall always be given in the map legend. The symbol is orientated to north.</description>
                 <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
                     <element>
@@ -2371,13 +2295,13 @@ Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="2" id="143" code="601.0.1" name="Magnetic north line - black">
+            <symbol type="2" id="136" code="601.0.1" name="Magnetic north line - black">
                 <description>Magnetic north lines are lines placed on the map pointing to magnetic north. Their spacing shall be 30 mm on the 1:5 000 map so they represent 150 m on the ground. 
 
 North lines may be broken where they obscure small features such as boulders, knolls, cliffs, stream junctions, path ends, etc.</description>
                 <line_symbol color="2" line_width="140" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="2" id="144" code="601.0.2" name="Magnetic north line, black with arrow">
+            <symbol type="2" id="137" code="601.0.2" name="Magnetic north line, black with arrow">
                 <description>Magnetic north lines are lines placed on the map pointing to magnetic north. Their spacing shall be 30 mm on the 1:5 000 map so they represent 150 m on the ground. 
 
 North lines may be broken where they obscure small features such as boulders, knolls, cliffs, stream junctions, path ends, etc.
@@ -2409,7 +2333,7 @@ North lines may be broken where they obscure small features such as boulders, kn
                     </end_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="4" id="145" code="601.0.3" name="North lines pattern - black">
+            <symbol type="4" id="138" code="601.0.3" name="North lines pattern - black">
                 <description>Magnetic north lines are lines placed on the map pointing to magnetic north.  Their spacing shall be 30mm on the 1:5000 map so they represent 150m on the ground.
 
 North lines may be broken where they obscure small features such as boulders, knolls, cliffs, stream junctions, path ends, etc.  Cut holes in the pattern to create these breaks.</description>
@@ -2417,13 +2341,13 @@ North lines may be broken where they obscure small features such as boulders, kn
                     <pattern type="1" angle="1.5708" rotatable="true" line_spacing="37500" line_offset="0" offset_along_line="0" color="2" line_width="140"/>
                 </area_symbol>
             </symbol>
-            <symbol type="2" id="146" code="601.0.4" name="Magnetic north line, blue">
+            <symbol type="2" id="139" code="601.0.4" name="Magnetic north line, blue">
                 <description>Magnetic north lines are lines placed on the map pointing to magnetic north. Their spacing shall be 30 mm on the 1:5 000 map so they represent 150 m on the ground.  
 
 North lines may be broken where they obscure small features such as boulders, knolls, cliffs, stream junctions, path ends, etc.</description>
                 <line_symbol color="11" line_width="180" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="2" id="147" code="601.0.5" name="Magnetic north line, blue, with arrow">
+            <symbol type="2" id="140" code="601.0.5" name="Magnetic north line, blue, with arrow">
                 <description>Magnetic north lines are lines placed on the map pointing to magnetic north. Their spacing shall be 30 mm on the 1:5 000 map so they represent 150 m on the ground. 
 
 North lines may be broken where they obscure small features such as boulders, knolls, cliffs, stream junctions, path ends, etc.
@@ -2455,7 +2379,7 @@ North lines may be broken where they obscure small features such as boulders, kn
                     </end_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="4" id="148" code="601.0.6" name="North lines pattern, blue">
+            <symbol type="4" id="141" code="601.0.6" name="North lines pattern, blue">
                 <description>Magnetic north lines are lines placed on the map pointing to magnetic north. Their spacing shall be 30 mm on the 1:5 000 map so they represent 150 m on the ground. 
 
 North lines may be broken where they obscure small features such as boulders, knolls, cliffs, stream junctions, path ends, etc.  Cut holes in the pattern to create these breaks.</description>
@@ -2463,7 +2387,7 @@ North lines may be broken where they obscure small features such as boulders, kn
                     <pattern type="1" angle="1.5708" rotatable="true" line_spacing="37500" line_offset="0" offset_along_line="0" color="11" line_width="180"/>
                 </area_symbol>
             </symbol>
-            <symbol type="1" id="149" code="602" name="Registration mark">
+            <symbol type="1" id="142" code="602" name="Registration mark">
                 <description>At least three registration marks shall be placed within the frame of a map in a non-symmetrical arrangement. In addition, a colour check should be possible.</description>
                 <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
                     <element>
@@ -2496,18 +2420,18 @@ North lines may be broken where they obscure small features such as boulders, kn
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="1" id="150" code="603.0.1" name="Spot height, dot">
+            <symbol type="1" id="143" code="603.0.1" name="Spot height, dot">
                 <description>Spot heights are used for the rough assessment of height differences. The height is given to the nearest metre. The figures are orientated to the north. Water levels are given without the dot.</description>
                 <point_symbol inner_radius="150" inner_color="2" outer_width="0" outer_color="-1" elements="0"/>
             </symbol>
-            <symbol type="8" id="151" code="603.0.2" name="Spot height">
+            <symbol type="8" id="144" code="603.0.2" name="Spot height">
                 <description>Spot heights are used for the rough assessment of height differences. The height is given to the nearest metre. The figures are orientated to the north. Water levels are given without the dot.</description>
                 <text_symbol icon_text="321">
                     <font family="Arial" size="1500"/>
                     <text color="2" line_spacing="1" paragraph_spacing="0" character_spacing="0" kerning="true"/>
                 </text_symbol>
             </symbol>
-            <symbol type="1" id="152" code="701" name="Start">
+            <symbol type="1" id="145" code="701" name="Start">
                 <description>The start or map issue point (if not at the start) is shown by an equilateral triangle which points in the direction of the first control. The centre of the triangle shows the precise position of the start point.</description>
                 <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
                     <element>
@@ -2528,26 +2452,26 @@ North lines may be broken where they obscure small features such as boulders, kn
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="1" id="153" code="702" name="Control point">
+            <symbol type="1" id="146" code="702" name="Control point">
                 <description>The control points are shown with circles. The centre of the circle shows the precise position of the feature. Sections of circles should be omitted to leave important detail showing.</description>
                 <point_symbol inner_radius="2825" inner_color="-1" outer_width="350" outer_color="0" elements="0"/>
             </symbol>
-            <symbol type="8" id="154" code="703" name="Control number">
+            <symbol type="8" id="147" code="703" name="Control number">
                 <description>The number of the control is placed close to the control point circle in such a way that it does not obscure important detail. The numbers are orientated to north.</description>
                 <text_symbol icon_text="5">
                     <font family="Arial" size="5468"/>
                     <text color="0" line_spacing="1" paragraph_spacing="0" character_spacing="0" kerning="true"/>
                 </text_symbol>
             </symbol>
-            <symbol type="2" id="155" code="704" name="Line">
+            <symbol type="2" id="148" code="704" name="Line">
                 <description>Where controls are to be visited in order, the start, control points and finish are joined together by straight lines. Sections of lines should be omitted to leave important detail showing.</description>
                 <line_symbol color="0" line_width="350" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="2" id="156" code="705" name="Marked route">
+            <symbol type="2" id="149" code="705" name="Marked route">
                 <description>A marked route is shown on the map with a dashed line.</description>
                 <line_symbol color="0" line_width="350" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2000" break_length="500" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="1" id="157" code="706" name="Finish">
+            <symbol type="1" id="150" code="706" name="Finish">
                 <description>The finish is shown by two concentric circles.</description>
                 <point_symbol inner_radius="2325" inner_color="-1" outer_width="350" outer_color="0" elements="1">
                     <element>
@@ -2562,14 +2486,14 @@ North lines may be broken where they obscure small features such as boulders, kn
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="2" id="158" code="707" name="Uncrossable boundary &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to cross)&lt;/span&gt;">
+            <symbol type="2" id="151" code="707" name="Uncrossable boundary &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to cross)&lt;/span&gt;">
                 <description>A boundary which it is not permitted to cross. Uncrossable boundaries shall be mapped by using the symbols: impassable cliff (201), impassable body of water (304.1), impassable marsh (309), impassable wall (521.1), impassable fence or railing (524) or impassable pipeline (534) and shall not be overprinted with symbol uncrossable boundary (707). This symbol is to be used only for last minute updates to the competition area, as excessive use of purple for indicating barriers is unfortunate.
 
 &lt;span style=&quot;color:magenta&quot;&gt;It is forbidden to cross an uncrossable boundary!
 Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                 <line_symbol color="0" line_width="700" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="1" id="159" code="708" name="Crossing point">
+            <symbol type="1" id="152" code="708" name="Crossing point">
                 <description>A crossing point through or over a wall or fence, or across a road or railway or through a tunnel or an out-of-bounds area is drawn on the map with two lines curving outwards. 
 
 If underpasses or tunnels etc. are to be used in a competition, they shall be emphasized with symbol crossing point (708) or crossing section (708.1).</description>
@@ -2608,7 +2532,7 @@ If underpasses or tunnels etc. are to be used in a competition, they shall be em
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="2" id="160" code="708.1" name="Crossing section, one side">
+            <symbol type="2" id="153" code="708.1" name="Crossing section, one side">
                 <description>Acrossing section through or over a building, wall or fence, or across a road or railway or through a tunnel or an out-of-bounds area is drawn on the map as a linear object, according to the plan shape.
 
 If underpasses or tunnels etc. are to be used in a competition, they shall be emphasized with symbol (708) or (708.1).</description>
@@ -2661,7 +2585,7 @@ If underpasses or tunnels etc. are to be used in a competition, they shall be em
                     </end_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="4" id="161" code="709" name="Out-of-bounds area &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to cross)&lt;/span&gt;">
+            <symbol type="4" id="154" code="709" name="Out-of-bounds area &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to cross)&lt;/span&gt;">
                 <description>Out of bounds areas are mapped with the symbol area with forbidden access (528.1).  This symbol shall only be used for last minute updates to the competition map (e.g. for areas that may be dangerous for the competitors during the competition, or very late changes to the competition terrain).
 An out-of-bounds area is shown with vertical stripes. A bounding line may be drawn if there is no natural boundary, as follows:
 - a solid line indicates that the boundary is marked continuously (tapes, etc.) on the ground,
@@ -2674,11 +2598,11 @@ Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                     <pattern type="1" angle="1.5708" line_spacing="600" line_offset="0" offset_along_line="0" color="0" line_width="250"/>
                 </area_symbol>
             </symbol>
-            <symbol type="2" id="162" code="709.1" name="Out-of-bounds area, solid boundary">
+            <symbol type="2" id="155" code="709.1" name="Out-of-bounds area, solid boundary">
                 <description>A solid line indicates that the boundary is marked continuously (tapes, etc.) on the ground.</description>
                 <line_symbol color="0" line_width="250" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="2" id="163" code="709.2" name="Out-of-bounds area, dashed boundary">
+            <symbol type="2" id="156" code="709.2" name="Out-of-bounds area, dashed boundary">
                 <description>A dashed line indicates intermittent marking on the ground.</description>
                 <line_symbol color="0" line_width="250" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="3000" break_length="500" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
                     <start_symbol>
@@ -2703,7 +2627,7 @@ Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                     </dash_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="2" id="164" code="709.3" name="Helper technical line">
+            <symbol type="2" id="157" code="709.3" name="Helper technical line">
                 <description>A dashed line indicates intermittent marking on the ground.</description>
                 <line_symbol color="0" line_width="70" minimum_length="0" join_style="1" cap_style="0" pointed_cap_length="1000" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="3000" break_length="500" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
                     <start_symbol>
@@ -2728,7 +2652,7 @@ Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                     </dash_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="1" id="165" code="712" name="First aid post">
+            <symbol type="1" id="158" code="712" name="First aid post">
                 <description>The location of a first aid post.</description>
                 <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
                     <element>
@@ -2761,7 +2685,7 @@ Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="1" id="166" code="713" name="Refreshment point">
+            <symbol type="1" id="159" code="713" name="Refreshment point">
                 <description>The location of a refreshment point which is not at a control or along the marked route.</description>
                 <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="4">
                     <element>
@@ -2835,14 +2759,14 @@ Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="4" id="167" code="714" name="Temporary construction or closed area &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to cross)&lt;/span&gt;">
+            <symbol type="4" id="160" code="714" name="Temporary construction or closed area &lt;span style=&quot;color:magenta&quot;&gt;(forbidden to cross)&lt;/span&gt;">
                 <description>Obvious temporary constructions like platforms for spectators and speaker, closed area for spectators, outside restaurant areas, etc. shall be represented in plan shape.
 
 &lt;span style=&quot;color:magenta&quot;&gt;It is forbidden to enter a temporary construction or closed area!
 Competitors violating this rule will be disqualified.&lt;/span&gt;</description>
                 <area_symbol inner_color="1" min_area="500" patterns="0"/>
             </symbol>
-            <symbol type="2" id="168" code="799" name="Simple Orienteering Course">
+            <symbol type="2" id="161" code="799" name="Simple Orienteering Course">
                 <description>This symbol provides a simple and quick way to make training courses.
 
 The purple line will extend a bit into the finish symbol. This is a shortcoming of this simple approach.</description>
@@ -2926,7 +2850,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     </dash_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="1" id="169" code="999" name="OpenOrienteering Logo">
+            <symbol type="1" id="162" code="999" name="OpenOrienteering Logo">
                 <description>The OpenOrienteering Logo.</description>
                 <point_symbol inner_radius="250" inner_color="-1" outer_width="0" outer_color="-1" elements="30">
                     <element>
@@ -6866,8 +6790,8 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
         </symbols>
         <parts count="1" current="0">
             <part name="Частина за замовченням">
-                <objects count="55">
-                    <object type="1" symbol="110">
+                <objects count="58">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-23046" y="-22117" flags="32"/>
                             <coord x="-19642" y="-20801" flags="32"/>
@@ -6879,7 +6803,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-17843" y="-15954" flags="32"/>
                             <coord x="-8479" y="-12152" flags="32"/>
@@ -6891,7 +6815,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-31690" y="7778" flags="32"/>
                             <coord x="-30610" y="5016" flags="32"/>
@@ -6903,7 +6827,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="112">
+                    <object type="1" symbol="110">
                         <coords count="5">
                             <coord x="-33309" y="3956"/>
                             <coord x="-29270" y="-6275" flags="32"/>
@@ -6915,7 +6839,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="112">
+                    <object type="1" symbol="110">
                         <coords count="5">
                             <coord x="-34063" y="6832"/>
                             <coord x="-34434" y="7875" flags="32"/>
@@ -6927,7 +6851,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="6">
                             <coord x="-33309" y="3956"/>
                             <coord x="-29270" y="-6275" flags="32"/>
@@ -6940,7 +6864,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="6">
                             <coord x="-34063" y="6832"/>
                             <coord x="-34434" y="7875" flags="32"/>
@@ -6953,7 +6877,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-20729" y="-17992" flags="32"/>
                             <coord x="-21281" y="-16521" flags="32"/>
@@ -6965,7 +6889,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-16511" y="-5456" flags="32"/>
                             <coord x="-14955" y="-4734" flags="32"/>
@@ -6977,7 +6901,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-30865" y="-2235" flags="32"/>
                             <coord x="-30462" y="-3256" flags="32"/>
@@ -6989,7 +6913,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="116">
+                    <object type="1" symbol="114">
                         <coords count="8">
                             <coord x="-32610" y="-6079"/>
                             <coord x="-33670" y="-3442"/>
@@ -7004,7 +6928,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="99">
+                    <object type="1" symbol="97">
                         <coords count="4">
                             <coord x="-23840" y="-4780" flags="32"/>
                             <coord x="-29910" y="-7100" flags="32"/>
@@ -7015,7 +6939,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-25225" y="5736" flags="32"/>
                             <coord x="-16325" y="9273" flags="32"/>
@@ -7027,7 +6951,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-12967" y="10835" flags="32"/>
                             <coord x="-629" y="15759" flags="32"/>
@@ -7039,7 +6963,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="17">
                             <coord x="-24234" y="19758"/>
                             <coord x="-22935" y="18270" flags="32"/>
@@ -7063,7 +6987,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-9197" y="32840" flags="32"/>
                             <coord x="-14630" y="44640" flags="32"/>
@@ -7075,7 +6999,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-9304" y="40483" flags="32"/>
                             <coord x="-7023" y="41484" flags="32"/>
@@ -7087,7 +7011,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-12405" y="46646" flags="32"/>
                             <coord x="-9463" y="47907" flags="32"/>
@@ -7099,7 +7023,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-37617" y="14557" flags="32"/>
                             <coord x="-36457" y="11812" flags="32"/>
@@ -7111,7 +7035,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-37610" y="14528"/>
                             <coord x="-41790" y="24408" flags="32"/>
@@ -7123,7 +7047,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-35734" y="26559" flags="32"/>
                             <coord x="-29112" y="29417" flags="32"/>
@@ -7135,7 +7059,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-28419" y="26983" flags="32"/>
                             <coord x="-27895" y="25695" flags="32"/>
@@ -7147,7 +7071,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-30300" y="26063" flags="32"/>
                             <coord x="-29720" y="24747" flags="32"/>
@@ -7159,7 +7083,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-30470" y="24393" flags="32"/>
                             <coord x="-29890" y="23247" flags="32"/>
@@ -7171,7 +7095,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="17">
                             <coord x="-28645" y="41008" flags="32"/>
                             <coord x="-28168" y="39913" flags="32"/>
@@ -7195,7 +7119,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="112">
+                    <object type="1" symbol="110">
                         <coords count="5">
                             <coord x="-31391" y="35641" flags="32"/>
                             <coord x="-33183" y="34895"/>
@@ -7207,7 +7131,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="18">
                             <coord x="-31584" y="35906"/>
                             <coord x="-31458" y="35613"/>
@@ -7232,7 +7156,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="17">
                             <coord x="-17918" y="58437" flags="32"/>
                             <coord x="-16631" y="55548" flags="32"/>
@@ -7256,7 +7180,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="99">
+                    <object type="1" symbol="97">
                         <coords count="7">
                             <coord x="-12648" y="45480" flags="32"/>
                             <coord x="-15769" y="52704" flags="32"/>
@@ -7270,7 +7194,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="99">
+                    <object type="1" symbol="97">
                         <coords count="5">
                             <coord x="-12661" y="45453"/>
                             <coord x="-20145" y="47594" flags="32"/>
@@ -7282,7 +7206,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="99">
+                    <object type="1" symbol="97">
                         <coords count="3">
                             <coord x="-16215" y="29340" flags="32"/>
                             <coord x="-22879" y="26118" flags="32"/>
@@ -7292,7 +7216,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="99">
+                    <object type="1" symbol="97">
                         <coords count="2">
                             <coord x="-8290" y="38244" flags="32"/>
                             <coord x="-8335" y="40048" flags="16"/>
@@ -7301,7 +7225,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="13">
                             <coord x="-2681" y="-7044" flags="32"/>
                             <coord x="5137" y="-3908" flags="32"/>
@@ -7321,7 +7245,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="23877" y="3692" flags="32"/>
                             <coord x="19067" y="15719" flags="32"/>
@@ -7333,7 +7257,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="28434" y="9323" flags="32"/>
                             <coord x="31801" y="1796" flags="32"/>
@@ -7345,7 +7269,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="28457" y="9332" flags="32"/>
                             <coord x="29256" y="9691" flags="32"/>
@@ -7357,7 +7281,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="32059" y="1918" flags="32"/>
                             <coord x="33416" y="2519" flags="32"/>
@@ -7369,7 +7293,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="108">
+                    <object type="1" symbol="106">
                         <coords count="6">
                             <coord x="28129" y="9939"/>
                             <coord x="27337" y="9525" flags="32"/>
@@ -7382,7 +7306,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="112">
+                    <object type="1" symbol="110">
                         <coords count="5">
                             <coord x="15381" y="36847" flags="32"/>
                             <coord x="20446" y="25924" flags="32"/>
@@ -7394,7 +7318,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="112">
+                    <object type="1" symbol="110">
                         <coords count="5">
                             <coord x="16730" y="27672" flags="32"/>
                             <coord x="14409" y="32854" flags="32"/>
@@ -7406,7 +7330,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="112">
+                    <object type="1" symbol="110">
                         <coords count="5">
                             <coord x="10827" y="22089" flags="32"/>
                             <coord x="6332" y="31773" flags="32"/>
@@ -7418,7 +7342,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="112">
+                    <object type="1" symbol="110">
                         <coords count="9">
                             <coord x="9286" y="36737" flags="32"/>
                             <coord x="6385" y="43140" flags="32"/>
@@ -7434,7 +7358,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="112">
+                    <object type="1" symbol="110">
                         <coords count="2">
                             <coord x="6044" y="32575" flags="32"/>
                             <coord x="5374" y="34066" flags="32"/>
@@ -7443,7 +7367,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="112">
+                    <object type="1" symbol="110">
                         <coords count="2">
                             <coord x="7105" y="32995" flags="32"/>
                             <coord x="6064" y="35256" flags="32"/>
@@ -7452,7 +7376,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="13">
                             <coord x="20446" y="25924" flags="32"/>
                             <coord x="15381" y="36847"/>
@@ -7472,7 +7396,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="5">
                             <coord x="10827" y="22089" flags="32"/>
                             <coord x="6332" y="31773" flags="32"/>
@@ -7484,7 +7408,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="9">
                             <coord x="9286" y="36737" flags="32"/>
                             <coord x="6385" y="43140" flags="32"/>
@@ -7500,7 +7424,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="33">
                             <coord x="4990" y="66702" flags="32"/>
                             <coord x="6297" y="63714" flags="32"/>
@@ -7540,7 +7464,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="9">
                             <coord x="11470" y="59619" flags="32"/>
                             <coord x="8311" y="58341" flags="32"/>
@@ -7556,7 +7480,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-14389" y="58245" flags="32"/>
                             <coord x="-15830" y="57596" flags="32"/>
@@ -7568,7 +7492,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-9238" y="60481" flags="32"/>
                             <coord x="-12309" y="59136" flags="32"/>
@@ -7580,7 +7504,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-4046" y="62760" flags="32"/>
                             <coord x="-7051" y="61436" flags="32"/>
@@ -7592,7 +7516,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="3440" y="66028" flags="32"/>
                             <coord x="4693" y="66572" flags="32"/>
@@ -7604,7 +7528,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="164">
+                    <object type="1" symbol="157">
                         <coords count="5">
                             <coord x="1190" y="65037" flags="32"/>
                             <coord x="-1733" y="63761" flags="32"/>
@@ -7616,7 +7540,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="11">
                             <coord x="-36263" y="34335" flags="33"/>
                             <coord x="-36502" y="34818"/>
@@ -7629,6 +7553,41 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <coord x="-43353" y="26801"/>
                             <coord x="-34637" y="30706"/>
                             <coord x="-36263" y="34335" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="119">
+                        <coords count="10">
+                            <coord x="-3531" y="24552"/>
+                            <coord x="-4871" y="27133" flags="1"/>
+                            <coord x="-5134" y="27618"/>
+                            <coord x="-5493" y="27757"/>
+                            <coord x="-5992" y="27993" flags="1"/>
+                            <coord x="-6393" y="28183"/>
+                            <coord x="-6826" y="28039"/>
+                            <coord x="-7092" y="28394"/>
+                            <coord x="-8193" y="29694"/>
+                            <coord x="-10194" y="28013"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="157">
+                        <coords count="2">
+                            <coord x="-3124" y="22942" flags="32"/>
+                            <coord x="-30432" y="11198" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="157">
+                        <coords count="2">
+                            <coord x="-10963" y="20597"/>
+                            <coord x="-30517" y="12188" flags="16"/>
                         </coords>
                         <pattern rotation="0">
                             <coord x="0" y="0"/>
@@ -7700,7 +7659,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
         </templates>
         <view>
             <grid color="#ffaa00" display="0" alignment="0" additional_rotation="0" unit="1" h_spacing="100" v_spacing="100" h_offset="0" v_offset="0" snapping_enabled="true"/>
-            <map_view zoom="2.82843" rotation="0" position_x="-3196" position_y="21518" overprinting_simulation_enabled="true">
+            <map_view zoom="4" rotation="0" position_x="-20256" position_y="13038" overprinting_simulation_enabled="true">
                 <map opacity="1" visible="true"/>
                 <templates count="1">
                     <ref template="0" visible="true" opacity="1"/>
@@ -7710,308 +7669,6 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
     </barrier>
     <barrier version="6" required="0.6.0">
         <undo>
-            <step type="0">
-                <affected_objects part="0">
-                    <ref object="16"/>
-                </affected_objects>
-                <contained_objects count="1">
-                    <object type="1" symbol="111">
-                        <coords count="5">
-                            <coord x="-17266" y="20241" flags="32"/>
-                            <coord x="-12583" y="24330" flags="32"/>
-                            <coord x="-14426" y="26441" flags="32"/>
-                            <coord x="-19109" y="22352" flags="32"/>
-                            <coord x="-17266" y="20241" flags="50"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                </contained_objects>
-            </step>
-            <step type="0">
-                <affected_objects part="0">
-                    <ref object="16"/>
-                </affected_objects>
-                <contained_objects count="1">
-                    <object type="1" symbol="111">
-                        <coords count="5">
-                            <coord x="-23534" y="18501" flags="32"/>
-                            <coord x="-18851" y="22590" flags="32"/>
-                            <coord x="-20694" y="24701" flags="32"/>
-                            <coord x="-25377" y="20612" flags="32"/>
-                            <coord x="-23534" y="18501" flags="50"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                </contained_objects>
-            </step>
-            <step type="1">
-                <affected_objects part="0">
-                    <ref object="17"/>
-                </affected_objects>
-            </step>
-            <step type="0">
-                <affected_objects part="0">
-                    <ref object="17"/>
-                </affected_objects>
-                <contained_objects count="1">
-                    <object type="1" symbol="111">
-                        <coords count="5">
-                            <coord x="-23138" y="17878" flags="32"/>
-                            <coord x="-18455" y="21967" flags="32"/>
-                            <coord x="-20298" y="24078" flags="32"/>
-                            <coord x="-24981" y="19989" flags="32"/>
-                            <coord x="-23138" y="17878" flags="50"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                </contained_objects>
-            </step>
-            <step type="0">
-                <affected_objects part="0">
-                    <ref object="16"/>
-                </affected_objects>
-                <contained_objects count="1">
-                    <object type="1" symbol="111">
-                        <coords count="5">
-                            <coord x="-23138" y="17878" flags="32"/>
-                            <coord x="-18455" y="21967" flags="32"/>
-                            <coord x="-20298" y="24078" flags="32"/>
-                            <coord x="-24981" y="19989" flags="32"/>
-                            <coord x="-23138" y="17878" flags="50"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                </contained_objects>
-            </step>
-            <step type="0">
-                <affected_objects part="0">
-                    <ref object="14"/>
-                </affected_objects>
-                <contained_objects count="1">
-                    <object type="1" symbol="111">
-                        <coords count="5">
-                            <coord x="-17266" y="20241" flags="32"/>
-                            <coord x="-12583" y="24330" flags="32"/>
-                            <coord x="-14426" y="26441" flags="32"/>
-                            <coord x="-19109" y="22352" flags="32"/>
-                            <coord x="-17266" y="20241" flags="50"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                </contained_objects>
-            </step>
-            <step type="0">
-                <affected_objects part="0">
-                    <ref object="14"/>
-                </affected_objects>
-                <contained_objects count="1">
-                    <object type="1" symbol="111">
-                        <coords count="5">
-                            <coord x="-17252" y="20170" flags="32"/>
-                            <coord x="-12569" y="24259" flags="32"/>
-                            <coord x="-14412" y="26370" flags="32"/>
-                            <coord x="-19095" y="22281" flags="32"/>
-                            <coord x="-17252" y="20170" flags="50"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                </contained_objects>
-            </step>
-            <step type="0">
-                <affected_objects part="0">
-                    <ref object="16"/>
-                </affected_objects>
-                <contained_objects count="1">
-                    <object type="1" symbol="111">
-                        <coords count="5">
-                            <coord x="-23138" y="17850" flags="32"/>
-                            <coord x="-18455" y="21939" flags="32"/>
-                            <coord x="-20298" y="24050" flags="32"/>
-                            <coord x="-24981" y="19961" flags="32"/>
-                            <coord x="-23138" y="17850" flags="50"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                </contained_objects>
-            </step>
-            <step type="0">
-                <affected_objects part="0">
-                    <ref object="14"/>
-                </affected_objects>
-                <contained_objects count="1">
-                    <object type="1" symbol="111">
-                        <coords count="5">
-                            <coord x="-17266" y="20184" flags="32"/>
-                            <coord x="-12583" y="24273" flags="32"/>
-                            <coord x="-14426" y="26384" flags="32"/>
-                            <coord x="-19109" y="22295" flags="32"/>
-                            <coord x="-17266" y="20184" flags="50"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                </contained_objects>
-            </step>
-            <step type="0">
-                <affected_objects part="0">
-                    <ref object="14"/>
-                </affected_objects>
-                <contained_objects count="1">
-                    <object type="1" symbol="111">
-                        <coords count="5">
-                            <coord x="-17266" y="20204" flags="32"/>
-                            <coord x="-12583" y="24293" flags="32"/>
-                            <coord x="-14426" y="26404" flags="32"/>
-                            <coord x="-19109" y="22315" flags="32"/>
-                            <coord x="-17266" y="20204" flags="50"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                </contained_objects>
-            </step>
-            <step type="5">
-                <steps count="2">
-                    <step type="2">
-                        <affected_objects part="0">
-                            <ref object="14"/>
-                            <ref object="15"/>
-                            <ref object="16"/>
-                            <ref object="17"/>
-                        </affected_objects>
-                        <contained_objects count="4">
-                            <object type="1" symbol="111">
-                                <coords count="5">
-                                    <coord x="-17238" y="20204" flags="32"/>
-                                    <coord x="-12555" y="24293" flags="32"/>
-                                    <coord x="-14398" y="26404" flags="32"/>
-                                    <coord x="-19081" y="22315" flags="32"/>
-                                    <coord x="-17238" y="20204" flags="50"/>
-                                </coords>
-                                <pattern rotation="0">
-                                    <coord x="0" y="0"/>
-                                </pattern>
-                            </object>
-                            <object type="1" symbol="111">
-                                <coords count="5">
-                                    <coord x="-11324" y="22688" flags="32"/>
-                                    <coord x="-6641" y="26777" flags="32"/>
-                                    <coord x="-8484" y="28888" flags="32"/>
-                                    <coord x="-13167" y="24799" flags="32"/>
-                                    <coord x="-11324" y="22688" flags="50"/>
-                                </coords>
-                                <pattern rotation="0">
-                                    <coord x="0" y="0"/>
-                                </pattern>
-                            </object>
-                            <object type="1" symbol="111">
-                                <coords count="5">
-                                    <coord x="-23195" y="17850" flags="32"/>
-                                    <coord x="-18512" y="21939" flags="32"/>
-                                    <coord x="-20355" y="24050" flags="32"/>
-                                    <coord x="-25038" y="19961" flags="32"/>
-                                    <coord x="-23195" y="17850" flags="50"/>
-                                </coords>
-                                <pattern rotation="0">
-                                    <coord x="0" y="0"/>
-                                </pattern>
-                            </object>
-                            <object type="1" symbol="111">
-                                <coords count="5">
-                                    <coord x="-29052" y="15359" flags="32"/>
-                                    <coord x="-24369" y="19448" flags="32"/>
-                                    <coord x="-26212" y="21559" flags="32"/>
-                                    <coord x="-30895" y="17470" flags="32"/>
-                                    <coord x="-29052" y="15359" flags="50"/>
-                                </coords>
-                                <pattern rotation="0">
-                                    <coord x="0" y="0"/>
-                                </pattern>
-                            </object>
-                        </contained_objects>
-                    </step>
-                    <step type="1">
-                        <affected_objects part="0">
-                            <ref object="14"/>
-                        </affected_objects>
-                    </step>
-                </steps>
-            </step>
-            <step type="3">
-                <affected_objects part="0">
-                    <ref object="14"/>
-                </affected_objects>
-                <switch_symbol count="1">
-                    <ref symbol="111"/>
-                </switch_symbol>
-            </step>
-            <step type="3">
-                <affected_objects part="0">
-                    <ref object="12"/>
-                    <ref object="13"/>
-                </affected_objects>
-                <switch_symbol count="2">
-                    <ref symbol="111"/>
-                    <ref symbol="111"/>
-                </switch_symbol>
-            </step>
-            <step type="0">
-                <affected_objects part="0">
-                    <ref object="14"/>
-                </affected_objects>
-                <contained_objects count="1">
-                    <object type="1" symbol="110">
-                        <coords count="17">
-                            <coord x="-24494" y="19338"/>
-                            <coord x="-23195" y="17850" flags="32"/>
-                            <coord x="-18649" y="21820"/>
-                            <coord x="-17238" y="20204" flags="32"/>
-                            <coord x="-12652" y="24209"/>
-                            <coord x="-11324" y="22688" flags="32"/>
-                            <coord x="-6641" y="26777"/>
-                            <coord x="-8484" y="28888"/>
-                            <coord x="-13070" y="24883"/>
-                            <coord x="-14398" y="26404" flags="32"/>
-                            <coord x="-18944" y="22434"/>
-                            <coord x="-20355" y="24050" flags="32"/>
-                            <coord x="-24913" y="20071"/>
-                            <coord x="-26212" y="21559" flags="32"/>
-                            <coord x="-30895" y="17470"/>
-                            <coord x="-29052" y="15359"/>
-                            <coord x="-24494" y="19338" flags="18"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                </contained_objects>
-            </step>
-            <step type="1">
-                <affected_objects part="0">
-                    <ref object="15"/>
-                </affected_objects>
-            </step>
-            <step type="1">
-                <affected_objects part="0">
-                    <ref object="16"/>
-                </affected_objects>
-            </step>
             <step type="1">
                 <affected_objects part="0">
                     <ref object="17"/>
@@ -8022,7 +7679,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="15"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="5">
                             <coord x="-9395" y="32515" flags="32"/>
                             <coord x="-14828" y="44315" flags="32"/>
@@ -8053,7 +7710,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <ref object="18"/>
                         </affected_objects>
                         <contained_objects count="1">
-                            <object type="1" symbol="110">
+                            <object type="1" symbol="108">
                                 <coords count="5">
                                     <coord x="-38289" y="25889" flags="32"/>
                                     <coord x="-33066" y="13543" flags="32"/>
@@ -8081,7 +7738,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <ref object="19"/>
                         </affected_objects>
                         <contained_objects count="1">
-                            <object type="1" symbol="112">
+                            <object type="1" symbol="110">
                                 <coords count="5">
                                     <coord x="-38289" y="25889" flags="32"/>
                                     <coord x="-33066" y="13543" flags="32"/>
@@ -8107,7 +7764,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="19"/>
                 </affected_objects>
                 <switch_symbol count="1">
-                    <ref symbol="112"/>
+                    <ref symbol="110"/>
                 </switch_symbol>
             </step>
             <step type="1">
@@ -8147,7 +7804,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <ref object="25"/>
                         </affected_objects>
                         <contained_objects count="1">
-                            <object type="1" symbol="110">
+                            <object type="1" symbol="108">
                                 <coords count="3">
                                     <coord x="-33183" y="34895"/>
                                     <coord x="-35984" y="41619"/>
@@ -8171,7 +7828,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="24"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="17">
                             <coord x="-29239" y="40371" flags="32"/>
                             <coord x="-28762" y="39276" flags="32"/>
@@ -8202,7 +7859,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="25"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="112">
+                    <object type="1" symbol="110">
                         <coords count="3">
                             <coord x="-33183" y="34895"/>
                             <coord x="-35984" y="41619"/>
@@ -8219,7 +7876,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="25"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="112">
+                    <object type="1" symbol="110">
                         <coords count="4">
                             <coord x="-31391" y="35641" flags="32"/>
                             <coord x="-33183" y="34895"/>
@@ -8237,7 +7894,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="25"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="112">
+                    <object type="1" symbol="110">
                         <coords count="5">
                             <coord x="-31391" y="35641" flags="32"/>
                             <coord x="-33183" y="34895"/>
@@ -8256,7 +7913,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="25"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="112">
+                    <object type="1" symbol="110">
                         <coords count="5">
                             <coord x="-31391" y="35641" flags="32"/>
                             <coord x="-33183" y="34895"/>
@@ -8275,7 +7932,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="25"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="112">
+                    <object type="1" symbol="110">
                         <coords count="5">
                             <coord x="-31391" y="35641" flags="32"/>
                             <coord x="-33183" y="34895"/>
@@ -8294,7 +7951,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="25"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="112">
+                    <object type="1" symbol="110">
                         <coords count="5">
                             <coord x="-31391" y="35641" flags="32"/>
                             <coord x="-33183" y="34895"/>
@@ -8318,7 +7975,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="26"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="112">
+                    <object type="1" symbol="110">
                         <coords count="3">
                             <coord x="-30091" y="44065" flags="32"/>
                             <coord x="-29987" y="43814" flags="32"/>
@@ -8337,7 +7994,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <ref object="26"/>
                         </affected_objects>
                         <contained_objects count="1">
-                            <object type="1" symbol="112">
+                            <object type="1" symbol="110">
                                 <coords count="2">
                                     <coord x="-30091" y="44065" flags="32"/>
                                     <coord x="-29987" y="43814" flags="48"/>
@@ -8353,7 +8010,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <ref object="25"/>
                         </affected_objects>
                         <contained_objects count="1">
-                            <object type="1" symbol="112">
+                            <object type="1" symbol="110">
                                 <coords count="4">
                                     <coord x="-31391" y="35641" flags="32"/>
                                     <coord x="-33183" y="34895"/>
@@ -8373,7 +8030,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="25"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="112">
+                    <object type="1" symbol="110">
                         <coords count="5">
                             <coord x="-31391" y="35641" flags="32"/>
                             <coord x="-33183" y="34895"/>
@@ -8392,7 +8049,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="25"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="112">
+                    <object type="1" symbol="110">
                         <coords count="5">
                             <coord x="-31391" y="35641" flags="32"/>
                             <coord x="-33183" y="34895"/>
@@ -8416,7 +8073,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="26"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="3">
                             <coord x="-31906" y="42371"/>
                             <coord x="-26642" y="36513"/>
@@ -8443,7 +8100,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="27"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="17">
                             <coord x="-18188" y="58127" flags="32"/>
                             <coord x="-16901" y="55238" flags="32"/>
@@ -8474,7 +8131,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="27"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="17">
                             <coord x="-17749" y="58452" flags="32"/>
                             <coord x="-16462" y="55563" flags="32"/>
@@ -8505,7 +8162,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="27"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="17">
                             <coord x="-17791" y="58466" flags="32"/>
                             <coord x="-16504" y="55577" flags="32"/>
@@ -8536,7 +8193,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="27"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="17">
                             <coord x="-17805" y="58480" flags="32"/>
                             <coord x="-16518" y="55591" flags="32"/>
@@ -8567,7 +8224,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="27"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="17">
                             <coord x="-17876" y="58423" flags="32"/>
                             <coord x="-16589" y="55534" flags="32"/>
@@ -8610,7 +8267,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <ref object="29"/>
                         </affected_objects>
                         <contained_objects count="1">
-                            <object type="1" symbol="99">
+                            <object type="1" symbol="97">
                                 <coords count="5">
                                     <coord x="-12661" y="45453" flags="32"/>
                                     <coord x="-20145" y="47594" flags="32"/>
@@ -8648,7 +8305,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <ref object="31"/>
                         </affected_objects>
                         <contained_objects count="1">
-                            <object type="1" symbol="99">
+                            <object type="1" symbol="97">
                                 <coords count="2">
                                     <coord x="-8290" y="38244" flags="32"/>
                                     <coord x="-8350" y="40665" flags="32"/>
@@ -8671,7 +8328,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="31"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="99">
+                    <object type="1" symbol="97">
                         <coords count="2">
                             <coord x="-8290" y="38244"/>
                             <coord x="-8335" y="40048" flags="16"/>
@@ -8692,7 +8349,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="32"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="110">
+                    <object type="1" symbol="108">
                         <coords count="13">
                             <coord x="-2801" y="-7384" flags="32"/>
                             <coord x="5017" y="-4248" flags="32"/>
@@ -8746,7 +8403,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <ref object="37"/>
                         </affected_objects>
                         <contained_objects count="1">
-                            <object type="1" symbol="108">
+                            <object type="1" symbol="106">
                                 <coords count="7">
                                     <coord x="30702" y="1048" flags="32"/>
                                     <coord x="29978" y="1341" flags="32"/>
@@ -8774,7 +8431,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="37"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="108">
+                    <object type="1" symbol="106">
                         <coords count="6">
                             <coord x="31715" y="1477"/>
                             <coord x="30702" y="1048"/>
@@ -8799,7 +8456,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="37"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="108">
+                    <object type="1" symbol="106">
                         <coords count="6">
                             <coord x="28079" y="10049"/>
                             <coord x="27197" y="9675" flags="32"/>
@@ -8819,7 +8476,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="37"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="108">
+                    <object type="1" symbol="106">
                         <coords count="6">
                             <coord x="28079" y="10049"/>
                             <coord x="27217" y="9635" flags="32"/>
@@ -8839,7 +8496,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="37"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="108">
+                    <object type="1" symbol="106">
                         <coords count="6">
                             <coord x="28079" y="10049"/>
                             <coord x="27247" y="9625" flags="32"/>
@@ -8859,7 +8516,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="37"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="108">
+                    <object type="1" symbol="106">
                         <coords count="6">
                             <coord x="28109" y="9989"/>
                             <coord x="27247" y="9625" flags="32"/>
@@ -8879,7 +8536,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="37"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="108">
+                    <object type="1" symbol="106">
                         <coords count="6">
                             <coord x="28129" y="9939"/>
                             <coord x="27247" y="9625" flags="32"/>
@@ -8899,7 +8556,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="37"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="108">
+                    <object type="1" symbol="106">
                         <coords count="6">
                             <coord x="28129" y="9939"/>
                             <coord x="27257" y="9595" flags="32"/>
@@ -8919,7 +8576,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="37"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="108">
+                    <object type="1" symbol="106">
                         <coords count="6">
                             <coord x="28129" y="9939"/>
                             <coord x="27287" y="9535" flags="32"/>
@@ -8939,7 +8596,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="37"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="108">
+                    <object type="1" symbol="106">
                         <coords count="6">
                             <coord x="28129" y="9939"/>
                             <coord x="27337" y="9525" flags="32"/>
@@ -8959,7 +8616,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="37"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="108">
+                    <object type="1" symbol="106">
                         <coords count="6">
                             <coord x="28129" y="9939"/>
                             <coord x="27337" y="9525" flags="32"/>
@@ -9009,7 +8666,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="42"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="112">
+                    <object type="1" symbol="110">
                         <coords count="2">
                             <coord x="6044" y="32575" flags="32"/>
                             <coord x="5324" y="34076" flags="32"/>
@@ -9038,7 +8695,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <ref object="44"/>
                         </affected_objects>
                         <contained_objects count="2">
-                            <object type="1" symbol="111">
+                            <object type="1" symbol="109">
                                 <coords count="19">
                                     <coord x="10916" y="27782"/>
                                     <coord x="8706" y="26658"/>
@@ -9064,7 +8721,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                                     <coord x="0" y="0"/>
                                 </pattern>
                             </object>
-                            <object type="1" symbol="111">
+                            <object type="1" symbol="109">
                                 <coords count="13">
                                     <coord x="8475" y="27182"/>
                                     <coord x="10670" y="28238"/>
@@ -9098,7 +8755,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="44"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="28">
                             <coord x="20446" y="25924" flags="32"/>
                             <coord x="18008" y="31180"/>
@@ -9140,7 +8797,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="44"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="27">
                             <coord x="20446" y="25924" flags="32"/>
                             <coord x="18008" y="31180"/>
@@ -9181,7 +8838,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="44"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="26">
                             <coord x="20446" y="25924" flags="32"/>
                             <coord x="18008" y="31180"/>
@@ -9221,7 +8878,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="44"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="25">
                             <coord x="20446" y="25924" flags="32"/>
                             <coord x="18008" y="31180"/>
@@ -9260,7 +8917,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="44"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="24">
                             <coord x="20446" y="25924" flags="32"/>
                             <coord x="18008" y="31180"/>
@@ -9298,7 +8955,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="44"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="23">
                             <coord x="20446" y="25924" flags="32"/>
                             <coord x="18008" y="31180"/>
@@ -9335,7 +8992,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="44"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="22">
                             <coord x="20446" y="25924" flags="32"/>
                             <coord x="18008" y="31180"/>
@@ -9371,7 +9028,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="44"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="21">
                             <coord x="20446" y="25924" flags="32"/>
                             <coord x="18008" y="31180"/>
@@ -9406,7 +9063,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="44"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="20">
                             <coord x="20446" y="25924" flags="32"/>
                             <coord x="18008" y="31180"/>
@@ -9440,7 +9097,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="44"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="19">
                             <coord x="20446" y="25924" flags="32"/>
                             <coord x="18008" y="31180"/>
@@ -9473,7 +9130,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="44"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="18">
                             <coord x="20446" y="25924" flags="32"/>
                             <coord x="18008" y="31180"/>
@@ -9505,7 +9162,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="44"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="17">
                             <coord x="20446" y="25924" flags="32"/>
                             <coord x="18008" y="31180"/>
@@ -9536,7 +9193,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="44"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="16">
                             <coord x="20446" y="25924" flags="32"/>
                             <coord x="18008" y="31180"/>
@@ -9566,7 +9223,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="44"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="15">
                             <coord x="20446" y="25924" flags="32"/>
                             <coord x="18008" y="31180"/>
@@ -9595,7 +9252,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="44"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="111">
+                    <object type="1" symbol="109">
                         <coords count="14">
                             <coord x="20446" y="25924" flags="32"/>
                             <coord x="18008" y="31180"/>
@@ -9675,6 +9332,34 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <ref object="54"/>
                         </affected_objects>
                         <contained_objects count="1">
+                            <object type="1" symbol="108">
+                                <coords count="5">
+                                    <coord x="-43693" y="26101" flags="32"/>
+                                    <coord x="-34977" y="30006" flags="32"/>
+                                    <coord x="-36993" y="34505" flags="32"/>
+                                    <coord x="-45709" y="30600" flags="32"/>
+                                    <coord x="-43693" y="26101" flags="50"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="1">
+                        <affected_objects part="0">
+                            <ref object="54"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="2">
+                        <affected_objects part="0">
+                            <ref object="54"/>
+                        </affected_objects>
+                        <contained_objects count="1">
                             <object type="1" symbol="110">
                                 <coords count="5">
                                     <coord x="-43693" y="26101" flags="32"/>
@@ -9696,40 +9381,12 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     </step>
                 </steps>
             </step>
-            <step type="5">
-                <steps count="2">
-                    <step type="2">
-                        <affected_objects part="0">
-                            <ref object="54"/>
-                        </affected_objects>
-                        <contained_objects count="1">
-                            <object type="1" symbol="112">
-                                <coords count="5">
-                                    <coord x="-43693" y="26101" flags="32"/>
-                                    <coord x="-34977" y="30006" flags="32"/>
-                                    <coord x="-36993" y="34505" flags="32"/>
-                                    <coord x="-45709" y="30600" flags="32"/>
-                                    <coord x="-43693" y="26101" flags="50"/>
-                                </coords>
-                                <pattern rotation="0">
-                                    <coord x="0" y="0"/>
-                                </pattern>
-                            </object>
-                        </contained_objects>
-                    </step>
-                    <step type="1">
-                        <affected_objects part="0">
-                            <ref object="54"/>
-                        </affected_objects>
-                    </step>
-                </steps>
-            </step>
             <step type="0">
                 <affected_objects part="0">
                     <ref object="54"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="164">
+                    <object type="1" symbol="157">
                         <coords count="5">
                             <coord x="-43693" y="26101" flags="32"/>
                             <coord x="-34977" y="30006" flags="32"/>
@@ -9748,7 +9405,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="54"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="164">
+                    <object type="1" symbol="157">
                         <coords count="5">
                             <coord x="-43693" y="26101" flags="32"/>
                             <coord x="-34977" y="30006"/>
@@ -9767,7 +9424,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="54"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="164">
+                    <object type="1" symbol="157">
                         <coords count="5">
                             <coord x="-43693" y="26101" flags="32"/>
                             <coord x="-34977" y="30006"/>
@@ -9786,7 +9443,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="54"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="164">
+                    <object type="1" symbol="157">
                         <coords count="5">
                             <coord x="-43693" y="26101" flags="32"/>
                             <coord x="-34977" y="30006"/>
@@ -9807,7 +9464,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <ref object="54"/>
                         </affected_objects>
                         <contained_objects count="1">
-                            <object type="1" symbol="164">
+                            <object type="1" symbol="157">
                                 <coords count="5">
                                     <coord x="-43693" y="26101"/>
                                     <coord x="-34977" y="30006"/>
@@ -9835,7 +9492,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <ref object="54"/>
                         </affected_objects>
                         <contained_objects count="1">
-                            <object type="1" symbol="164">
+                            <object type="1" symbol="157">
                                 <coords count="5">
                                     <coord x="-45280" y="29642"/>
                                     <coord x="-43693" y="26101"/>
@@ -9867,7 +9524,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="56"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="164">
+                    <object type="1" symbol="157">
                         <coords count="5">
                             <coord x="-36594" y="33615" flags="33"/>
                             <coord x="-36842" y="34118"/>
@@ -9888,7 +9545,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <ref object="55"/>
                         </affected_objects>
                         <contained_objects count="1">
-                            <object type="1" symbol="164">
+                            <object type="1" symbol="157">
                                 <coords count="2">
                                     <coord x="-37932" y="34084"/>
                                     <coord x="-44722" y="31042" flags="16"/>
@@ -9904,7 +9561,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <ref object="56"/>
                         </affected_objects>
                         <contained_objects count="1">
-                            <object type="1" symbol="164">
+                            <object type="1" symbol="157">
                                 <coords count="4">
                                     <coord x="-36594" y="33615" flags="33"/>
                                     <coord x="-36842" y="34118"/>
@@ -9924,7 +9581,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="55"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="164">
+                    <object type="1" symbol="157">
                         <coords count="5">
                             <coord x="-36594" y="33615" flags="33"/>
                             <coord x="-36842" y="34118"/>
@@ -9943,7 +9600,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="55"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="164">
+                    <object type="1" symbol="157">
                         <coords count="9">
                             <coord x="-36594" y="33615" flags="33"/>
                             <coord x="-36842" y="34118"/>
@@ -9968,7 +9625,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <ref object="55"/>
                         </affected_objects>
                         <contained_objects count="1">
-                            <object type="1" symbol="164">
+                            <object type="1" symbol="157">
                                 <coords count="8">
                                     <coord x="-36594" y="33615" flags="33"/>
                                     <coord x="-36842" y="34118"/>
@@ -9990,7 +9647,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                             <ref object="54"/>
                         </affected_objects>
                         <contained_objects count="1">
-                            <object type="1" symbol="164">
+                            <object type="1" symbol="157">
                                 <coords count="4">
                                     <coord x="-45280" y="29642"/>
                                     <coord x="-43693" y="26101"/>
@@ -10010,7 +9667,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="54"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="164">
+                    <object type="1" symbol="157">
                         <coords count="11">
                             <coord x="-36603" y="33635" flags="33"/>
                             <coord x="-36842" y="34118"/>
@@ -10035,8 +9692,267 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
                     <ref object="54"/>
                 </affected_objects>
                 <switch_symbol count="1">
-                    <ref symbol="164"/>
+                    <ref symbol="157"/>
                 </switch_symbol>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="55"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="56"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="57"/>
+                </affected_objects>
+            </step>
+            <step type="2">
+                <affected_objects part="0">
+                    <ref object="56"/>
+                    <ref object="55"/>
+                    <ref object="55"/>
+                </affected_objects>
+                <contained_objects count="3">
+                    <object type="1" symbol="120">
+                        <coords count="2">
+                            <coord x="-1270" y="27753"/>
+                            <coord x="-3271" y="30754"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="88">
+                        <coords count="2">
+                            <coord x="-2230" y="26873"/>
+                            <coord x="-4471" y="29474"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="121">
+                        <coords count="2">
+                            <coord x="691" y="27513"/>
+                            <coord x="-789" y="30915"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="55"/>
+                </affected_objects>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="2">
+                        <affected_objects part="0">
+                            <ref object="55"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="89">
+                                <coords count="10">
+                                    <coord x="-3531" y="24552"/>
+                                    <coord x="-4871" y="27133" flags="1"/>
+                                    <coord x="-5134" y="27618"/>
+                                    <coord x="-5493" y="27757"/>
+                                    <coord x="-5992" y="27993" flags="1"/>
+                                    <coord x="-6393" y="28183"/>
+                                    <coord x="-6746" y="28139"/>
+                                    <coord x="-7012" y="28494"/>
+                                    <coord x="-8193" y="29694"/>
+                                    <coord x="-10194" y="28013"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="1">
+                        <affected_objects part="0">
+                            <ref object="55"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="2">
+                        <affected_objects part="0">
+                            <ref object="55"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="120">
+                                <coords count="10">
+                                    <coord x="-3531" y="24552"/>
+                                    <coord x="-4871" y="27133" flags="1"/>
+                                    <coord x="-5134" y="27618"/>
+                                    <coord x="-5493" y="27757"/>
+                                    <coord x="-5992" y="27993" flags="1"/>
+                                    <coord x="-6393" y="28183"/>
+                                    <coord x="-6746" y="28139"/>
+                                    <coord x="-7012" y="28494"/>
+                                    <coord x="-8193" y="29694"/>
+                                    <coord x="-10194" y="28013"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="1">
+                        <affected_objects part="0">
+                            <ref object="55"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="55"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="119">
+                        <coords count="10">
+                            <coord x="-3531" y="24552"/>
+                            <coord x="-4871" y="27133" flags="1"/>
+                            <coord x="-5134" y="27618"/>
+                            <coord x="-5493" y="27757"/>
+                            <coord x="-5992" y="27993" flags="1"/>
+                            <coord x="-6393" y="28183"/>
+                            <coord x="-6746" y="28139"/>
+                            <coord x="-7012" y="28494"/>
+                            <coord x="-8193" y="29694"/>
+                            <coord x="-10194" y="28013"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="55"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="119">
+                        <coords count="10">
+                            <coord x="-3531" y="24552"/>
+                            <coord x="-4871" y="27133" flags="1"/>
+                            <coord x="-5134" y="27618"/>
+                            <coord x="-5493" y="27757"/>
+                            <coord x="-5992" y="27993" flags="1"/>
+                            <coord x="-6393" y="28183"/>
+                            <coord x="-6806" y="28039"/>
+                            <coord x="-7072" y="28394"/>
+                            <coord x="-8193" y="29694"/>
+                            <coord x="-10194" y="28013"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="56"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="57"/>
+                </affected_objects>
+            </step>
+            <step type="2">
+                <affected_objects part="0">
+                    <ref object="57"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="157">
+                        <coords count="2">
+                            <coord x="-30545" y="12216" flags="32"/>
+                            <coord x="-3237" y="24130" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="57"/>
+                </affected_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="57"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="157">
+                        <coords count="2">
+                            <coord x="-3124" y="22942" flags="32"/>
+                            <coord x="-30432" y="11198" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="2">
+                        <affected_objects part="0">
+                            <ref object="57"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="157">
+                                <coords count="2">
+                                    <coord x="-3209" y="23932" flags="32"/>
+                                    <coord x="-30517" y="12188" flags="32"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="1">
+                        <affected_objects part="0">
+                            <ref object="57"/>
+                            <ref object="58"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="2">
+                <affected_objects part="0">
+                    <ref object="57"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="157">
+                        <coords count="2">
+                            <coord x="-3209" y="23932"/>
+                            <coord x="-10963" y="20597" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
             </step>
         </undo>
         <redo/>
